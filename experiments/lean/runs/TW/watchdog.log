@@ -1,0 +1,16 @@
+2026-10-12T23:08:10 watchdog start limit=20min until=07:23
+2026-10-12T23:49:11 session af579a3fdcd8 (depth 0) blocked 21 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": true, "error": null}]
+2026-10-12T23:49:16   continue notice -> Queued for af579a3fdcd8
+2026-10-13T00:09:16 session af579a3fdcd8 (depth 0) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": true, "error": null}]
+2026-10-13T00:09:21   continue notice -> Queued for af579a3fdcd8
+2026-10-13T00:44:22 session af579a3fdcd8 (depth 0) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": true, "error": null}]
+2026-10-13T00:44:27   continue notice -> Queued for af579a3fdcd8
+2026-10-13T00:54:27 session 47c225313b3d (depth 1) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": false, "error": "No queued
+2026-10-13T00:54:32   continue notice -> Sent to w6-misc
+2026-10-13T01:18:33 session 3ace4bc121b9 (depth 1) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": false, "error": "No queued
+2026-10-13T01:18:38   continue notice -> Sent to w5-numthy
+2026-10-13T05:53:17 session 5671f18eef99 (depth 1) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": true, "error": null}]
+2026-10-13T05:53:22   continue notice -> Queued for w5-numthy
+2026-10-13T06:33:57 session 5671f18eef99 (depth 1) blocked 41 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": true, "error": null}]
+2026-10-13T06:34:03   continue notice -> Sent to w5-numthy
+2026-10-13T07:23:22 watchdog stop (until reached)

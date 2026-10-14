@@ -1,0 +1,431 @@
+{
+ "0805.3777-TensorRank-isMaxRank_three_three_five": {
+  "accepted": false
+ },
+ "2107.00295-IndependentDomination-independentDominationEven": {
+  "accepted": false
+ },
+ "2107.00295-IndependentDomination-independentDominationOdd": {
+  "accepted": false
+ },
+ "2209.04540-SpectralSetsAndWeakTiling-isSpectral_right_of_product_three_dimensional": {
+  "accepted": false
+ },
+ "2507.17780-2-tx_graffiti_conjecture_2": {
+  "accepted": false
+ },
+ "2604.08040-Conjecture5_5-solvable_of_cyc_lt": {
+  "accepted": false
+ },
+ "2605.12342-Conjecture1-conjecture_1": {
+  "accepted": false
+ },
+ "2607.05349-MicroscopicWeighting-microscopic_weighting_iff_finite_concentration": {
+  "accepted": false
+ },
+ "BugeaudDistributionModuloOne-Problem10_4-spectrum_xi_alpha_pow_countable": {
+  "accepted": false
+ },
+ "ErdosProblems-1-erdos_1": {
+  "accepted": false
+ },
+ "ErdosProblems-1041-erdos_1041": {
+  "accepted": false
+ },
+ "ErdosProblems-172-erdos_172": {
+  "accepted": false
+ },
+ "ErdosProblems-181-erdos_181": {
+  "accepted": false
+ },
+ "ErdosProblems-348-erdos_348": {
+  "accepted": false
+ },
+ "ErdosProblems-371-erdos_371": {
+  "accepted": false
+ },
+ "ErdosProblems-421-erdos_421": {
+  "accepted": false
+ },
+ "ErdosProblems-424-erdos_424": {
+  "accepted": false
+ },
+ "ErdosProblems-469-erdos_469": {
+  "accepted": false
+ },
+ "ErdosProblems-477-erdos_477": {
+  "accepted": false
+ },
+ "ErdosProblems-486-erdos_486": {
+  "accepted": false
+ },
+ "ErdosProblems-547-erdos_547": {
+  "accepted": false
+ },
+ "ErdosProblems-548-erdos_548": {
+  "accepted": false
+ },
+ "ErdosProblems-730-erdos_730": {
+  "accepted": false
+ },
+ "ErdosProblems-952-erdos_952": {
+  "accepted": false
+ },
+ "ErdosProblems-968-erdos_968": {
+  "accepted": false
+ },
+ "ErdosProblems-970-erdos_970": {
+  "accepted": false
+ },
+ "ErdosProblems-973-erdos_973": {
+  "accepted": false
+ },
+ "GreensOpenProblems-16-green_16_lower_bound": {
+  "accepted": false
+ },
+ "GreensOpenProblems-29-green_29": {
+  "accepted": false
+ },
+ "GreensOpenProblems-42-green_42": {
+  "accepted": false
+ },
+ "Mathoverflow-1973-mathoverflow_1973": {
+  "accepted": false
+ },
+ "OEIS-100434-conjecture2": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«100434»",
+  "theorem": "OeisA100434.conjecture2",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.9,
+  "file": "OEIS-100434-conjecture2/Submission.lean"
+ },
+ "OEIS-100434-conjecture3": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«100434»",
+  "theorem": "OeisA100434.conjecture3",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.6,
+  "file": "OEIS-100434-conjecture3/Submission.lean"
+ },
+ "OEIS-100474-next_semiprime": {
+  "accepted": false
+ },
+ "OEIS-102371-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«102371»",
+  "theorem": "OeisA102371.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 8.9,
+  "file": "OEIS-102371-conjecture/Submission.lean"
+ },
+ "OEIS-103425-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«103425»",
+  "theorem": "OeisA103425.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.2,
+  "file": "OEIS-103425-conjecture/Submission.lean"
+ },
+ "OEIS-105565-conjecture": {
+  "accepted": false
+ },
+ "OEIS-105801-conjecture": {
+  "accepted": false
+ },
+ "OEIS-108081-count_words_in_x_is_a_shifted": {
+  "accepted": false
+ },
+ "OEIS-108306-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«108306»",
+  "theorem": "OeisA108306.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.4,
+  "file": "OEIS-108306-conjecture/Submission.lean"
+ },
+ "OEIS-109074-conjecture": {
+  "accepted": false
+ },
+ "OEIS-112521-conjecture": {
+  "accepted": false
+ },
+ "OEIS-112970-conjecture1": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«112970»",
+  "theorem": "OeisA112970.conjecture1",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.2,
+  "file": "OEIS-112970-conjecture1/Submission.lean"
+ },
+ "OEIS-112970-conjecture2": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«112970»",
+  "theorem": "OeisA112970.conjecture2",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.4,
+  "file": "OEIS-112970-conjecture2/Submission.lean"
+ },
+ "OEIS-113250-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«113250»",
+  "theorem": "OeisA113250.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 6.0,
+  "file": "OEIS-113250-conjecture/Submission.lean"
+ },
+ "OEIS-113252-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«113252»",
+  "theorem": "OeisA113252.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 9.1,
+  "file": "OEIS-113252-conjecture/Submission.lean"
+ },
+ "OEIS-113255-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«113255»",
+  "theorem": "OeisA113255.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 9.1,
+  "file": "OEIS-113255-conjecture/Submission.lean"
+ },
+ "OEIS-129365-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-129365-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-141057-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-176477-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-176477-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-1818-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-1818-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-185895-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-185895-conjecture3": {
+  "accepted": false
+ },
+ "OEIS-211417-a_dvd_five_mul_add_one": {
+  "accepted": false
+ },
+ "OEIS-211417-forty_two_mul_a_dvd_product": {
+  "accepted": false
+ },
+ "OEIS-22030-conjecture": {
+  "accepted": false
+ },
+ "OEIS-237271-conjecture_5": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«237271»",
+  "theorem": "OeisA237271.conjecture_5",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 7.3,
+  "file": "OEIS-237271-conjecture_5/Submission.lean"
+ },
+ "OEIS-237271-observation_carmichael": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«237271»",
+  "theorem": "OeisA237271.observation_carmichael",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.9,
+  "file": "OEIS-237271-observation_carmichael/Submission.lean"
+ },
+ "OEIS-287616-conjecture": {
+  "accepted": false
+ },
+ "OEIS-306477-conjecture": {
+  "accepted": false
+ },
+ "OEIS-3162-conjecture": {
+  "accepted": false
+ },
+ "OEIS-3625-conjecture": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«3625»",
+  "theorem": "OeisA3625.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 7.2,
+  "file": "OEIS-3625-conjecture/Submission.lean"
+ },
+ "OEIS-48153-conjecture": {
+  "accepted": false
+ },
+ "OEIS-49473-conjecture": {
+  "accepted": false
+ },
+ "OEIS-53175-conjecture": {
+  "accepted": false
+ },
+ "OEIS-64169-conjecture": {
+  "accepted": false
+ },
+ "OEIS-70823-conjecture": {
+  "accepted": false
+ },
+ "OEIS-71532-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-76141-conjecture": {
+  "accepted": false
+ },
+ "OEIS-93456-conjecture": {
+  "accepted": false
+ },
+ "OpenQuantumProblems-35-ame_12_5_open": {
+  "accepted": false
+ },
+ "Other-HyperbolicGroupsResiduallyFinite-hyperbolic_exists_finiteIndex_ne_top": {
+  "accepted": false
+ },
+ "Other-HyperbolicGroupsResiduallyFinite-hyperbolic_residuallyFinite": {
+  "accepted": false
+ },
+ "Paper-Chvatal-exists_maximal_star": {
+  "accepted": false
+ },
+ "Paper-ClaudesCycles-cube_hamiltonian_arc_decomposition_even": {
+  "accepted": false
+ },
+ "Paper-MonochromaticQuantumGraph-eqSystem10_no_solution_d3_int": {
+  "accepted": false
+ },
+ "Paper-MonochromaticQuantumGraph-eqSystem10_no_solution_d3_trinary_int": {
+  "accepted": false
+ },
+ "Paper-TuDengConjecture-tu_deng_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-BorsukConjecture-borsuk_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-BoundedBurnsideProblem-bounded_burnside_problem": {
+  "accepted": false
+ },
+ "Wikipedia-Brennanconjecture-brennan_universalSpectrum": {
+  "accepted": false
+ },
+ "Wikipedia-Kaplansky-zero_divisor_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-KomlosConjecture-komlos_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-PompeiuProblem-pompeiu_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-Sendov-sendov_conjecture": {
+  "accepted": false
+ },
+ "Wikipedia-SidorenkoConjecture-sidorenko_conjecture_graphon": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture142-conjecture142": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture144-conjecture144": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture145-conjecture145": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture146-conjecture146": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture194-conjecture194": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture200-conjecture200": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture217-conjecture217": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture291-conjecture291": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture314-conjecture314": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture316-conjecture316": {
+  "accepted": false
+ },
+ "WrittenOnTheWallII-GraphConjecture59-conjecture59": {
+  "accepted": false
+ }
+}

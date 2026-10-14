@@ -1,0 +1,21 @@
+2026-10-14T07:11:41 supervisor start deadline=15:11 nudge=yes
+2026-10-14T07:11:41 list failed: Expecting value: line 1 column 1 (char 0)
+2026-10-14T10:05:45 sent to 7791647c0877: 'Butce dolmadi (kalan ~306 dk). Gate ciktisi:\n{\n "accepted_verified": []\n}\n[FAIL] time budget not used up: keep working for another 291 minutes, then finish\n[FAI' -> Sent to 7791647c0877
+2026-10-14T10:15:45 sent to 7791647c0877: 'Butce dolmadi (kalan ~296 dk). Gate ciktisi:\n{\n "accepted_verified": []\n}\n[FAIL] time budget not used up: keep working for another 281 minutes, then finish\n[FAI' -> Sent to 7791647c0877
+2026-10-14T11:44:11 list failed: Expecting value: line 1 column 1 (char 0)
+2026-10-14T12:40:45 sent to 7791647c0877: 'Butce dolmadi (kalan ~151 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T12:50:45 sent to 7791647c0877: 'Butce dolmadi (kalan ~141 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T13:00:47 sent to 7791647c0877: 'Butce dolmadi (kalan ~131 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T13:30:51 sent to 7791647c0877: 'Butce dolmadi (kalan ~101 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T13:40:55 sent to 7791647c0877: 'Butce dolmadi (kalan ~91 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T13:50:59 sent to 7791647c0877: 'Butce dolmadi (kalan ~81 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:01:04 sent to 7791647c0877: 'Butce dolmadi (kalan ~71 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:11:08 sent to 7791647c0877: 'Butce dolmadi (kalan ~61 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:21:11 sent to 7791647c0877: 'Butce dolmadi (kalan ~51 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:31:16 sent to 7791647c0877: 'Butce dolmadi (kalan ~40 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:41:23 sent to 7791647c0877: 'Butce dolmadi (kalan ~30 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T14:43:25 sent to 7791647c0877: 'ON KONTROL (her kosula ayni, sure bitmeden 30 dk once): gate ciktisi asagida. Bitirirken RESULT.md bu kontrolden gecmeli.\n (None: 1015, in open\n    return io.op' -> Sent to 7791647c0877
+2026-10-14T14:51:30 sent to 7791647c0877: 'Butce dolmadi (kalan ~20 dk). Gate ciktisi:\n (None: 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^' -> Sent to 7791647c0877
+2026-10-14T15:13:44 sent to 7791647c0877: "SURE DOLDU: 10 dakika icinde RESULT.md dosyasini referee'nin dogruladigi en iyi sonuclarla guncelle, ledger'i tamamla ve dur. Yeni deneme baslatma." -> Sent to 7791647c0877
+2026-10-14T15:29:49 deadline + grace reached: tmux session cs9-TW2 closed
+2026-10-14T15:29:50 agent unit cs9-TW2-1791951101.scope stopped (rc=0)

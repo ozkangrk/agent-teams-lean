@@ -1,0 +1,284 @@
+{
+ "N": 100,
+ "accepted": {
+  "TS": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-108306-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-113252-conjecture",
+   "OEIS-113255-conjecture",
+   "OEIS-3625-conjecture",
+   "OEIS-70823-conjecture"
+  ],
+  "TW": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-103425-conjecture",
+   "OEIS-108306-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-113252-conjecture",
+   "OEIS-113255-conjecture",
+   "OEIS-129365-conjecture1",
+   "OEIS-237271-conjecture_5",
+   "OEIS-237271-observation_carmichael",
+   "OEIS-3625-conjecture",
+   "OEIS-70823-conjecture",
+   "OEIS-93456-conjecture",
+   "WrittenOnTheWallII-GraphConjecture200-conjecture200"
+  ]
+ },
+ "both": [
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-108306-conjecture",
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-113250-conjecture",
+  "OEIS-113252-conjecture",
+  "OEIS-113255-conjecture",
+  "OEIS-3625-conjecture",
+  "OEIS-70823-conjecture"
+ ],
+ "TW_only": [
+  "OEIS-103425-conjecture",
+  "OEIS-129365-conjecture1",
+  "OEIS-237271-conjecture_5",
+  "OEIS-237271-observation_carmichael",
+  "OEIS-93456-conjecture",
+  "WrittenOnTheWallII-GraphConjecture200-conjecture200"
+ ],
+ "TS_only": [],
+ "H1": {
+  "b_TW_only": 6,
+  "c_TS_only": 0,
+  "p_one_sided": 0.015625,
+  "diff": 0.06,
+  "exact_conditional_CI95": [
+   0.004889024827211941,
+   0.06
+  ],
+  "tango_CI95": [
+   0.0208,
+   0.1247
+  ],
+  "cluster_files": {
+   "n_files": 89,
+   "TW_only": 5,
+   "TS_only": 0,
+   "p_one_sided": 0.03125
+  }
+ },
+ "H2": {
+  "snapshots": {
+   "TS": [
+    [
+     "2026-10-12T23:50:49",
+     0
+    ],
+    [
+     "2026-10-13T00:52:21",
+     8
+    ],
+    [
+     "2026-10-13T01:52:31",
+     9
+    ],
+    [
+     "2026-10-13T02:50:47",
+     9
+    ],
+    [
+     "2026-10-13T03:50:45",
+     9
+    ],
+    [
+     "2026-10-13T04:50:55",
+     10
+    ],
+    [
+     "2026-10-13T05:50:54",
+     10
+    ],
+    [
+     "2026-10-13T06:50:54",
+     10
+    ],
+    [
+     "2026-10-13T07:51:19",
+     10
+    ]
+   ],
+   "TW": [
+    [
+     "2026-10-12T23:52:43",
+     10
+    ],
+    [
+     "2026-10-13T00:54:42",
+     12
+    ],
+    [
+     "2026-10-13T02:15:16",
+     15
+    ],
+    [
+     "2026-10-13T03:11:45",
+     15
+    ],
+    [
+     "2026-10-13T03:50:45",
+     15
+    ],
+    [
+     "2026-10-13T04:52:31",
+     16
+    ],
+    [
+     "2026-10-13T05:50:58",
+     16
+    ],
+    [
+     "2026-10-13T06:50:54",
+     16
+    ],
+    [
+     "2026-10-13T07:51:19",
+     16
+    ]
+   ]
+  },
+  "minutes_to_first_file": {
+   "TS": {
+    "OEIS-112970-conjecture2": 61.6,
+    "OEIS-3625-conjecture": 119.5,
+    "OEIS-112970-conjecture1": 59.7,
+    "OEIS-113255-conjecture": 79.3,
+    "OEIS-113252-conjecture": 77.2,
+    "OEIS-113250-conjecture": 74.7,
+    "OEIS-70823-conjecture": 86.5,
+    "OEIS-100434-conjecture3": 64.3,
+    "OEIS-108306-conjecture": 109.0,
+    "OEIS-100434-conjecture2": 64.3
+   },
+   "TW": {
+    "OEIS-112970-conjecture2": 21.9,
+    "OEIS-3625-conjecture": 29.9,
+    "WrittenOnTheWallII-GraphConjecture200-conjecture200": 337.0,
+    "OEIS-112970-conjecture1": 10.3,
+    "OEIS-113255-conjecture": 25.8,
+    "OEIS-129365-conjecture1": 106.5,
+    "OEIS-113252-conjecture": 25.8,
+    "OEIS-93456-conjecture": 44.1,
+    "OEIS-113250-conjecture": 24.6,
+    "OEIS-237271-observation_carmichael": 44.6,
+    "OEIS-70823-conjecture": 27.5,
+    "OEIS-103425-conjecture": 16.7,
+    "OEIS-100434-conjecture3": 26.4,
+    "OEIS-237271-conjecture_5": 122.6,
+    "OEIS-108306-conjecture": 22.2,
+    "OEIS-100434-conjecture2": 28.6
+   }
+  }
+ },
+ "H3": {
+  "TS": {
+   "calls": 509,
+   "input": 1125820,
+   "cacheRead": 48964736,
+   "output": 539441,
+   "accepted": 10,
+   "calls_per_proof": 50.9,
+   "prompt_tokens_per_proof_M": 5.01,
+   "output_tokens_per_proof_k": 53.9
+  },
+  "TW": {
+   "calls": 2010,
+   "input": 5098936,
+   "cacheRead": 141621248,
+   "output": 2451656,
+   "accepted": 16,
+   "calls_per_proof": 125.6,
+   "prompt_tokens_per_proof_M": 9.17,
+   "output_tokens_per_proof_k": 153.2
+  }
+ },
+ "H6": {
+  "2026-08": {
+   "n": 34,
+   "TS": 10,
+   "TW": 13
+  },
+  "2026-09": {
+   "n": 45,
+   "TS": 0,
+   "TW": 3
+  },
+  "2026-10": {
+   "n": 21,
+   "TS": 0,
+   "TW": 0
+  }
+ },
+ "by_source": {
+  "Arxiv": {
+   "n": 8,
+   "TS": 0,
+   "TW": 0
+  },
+  "Books": {
+   "n": 1,
+   "TS": 0,
+   "TW": 0
+  },
+  "ErdosProblems": {
+   "n": 18,
+   "TS": 0,
+   "TW": 0
+  },
+  "GreensOpenProblems": {
+   "n": 3,
+   "TS": 0,
+   "TW": 0
+  },
+  "Mathoverflow": {
+   "n": 1,
+   "TS": 0,
+   "TW": 0
+  },
+  "OEIS": {
+   "n": 42,
+   "TS": 10,
+   "TW": 15
+  },
+  "OpenQuantumProblems": {
+   "n": 1,
+   "TS": 0,
+   "TW": 0
+  },
+  "Other": {
+   "n": 2,
+   "TS": 0,
+   "TW": 0
+  },
+  "Paper": {
+   "n": 5,
+   "TS": 0,
+   "TW": 0
+  },
+  "Wikipedia": {
+   "n": 8,
+   "TS": 0,
+   "TW": 0
+  },
+  "WrittenOnTheWallII": {
+   "n": 11,
+   "TS": 0,
+   "TW": 1
+  }
+ }
+}

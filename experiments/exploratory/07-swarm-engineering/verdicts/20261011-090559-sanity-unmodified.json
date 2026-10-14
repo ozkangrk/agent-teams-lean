@@ -1,0 +1,46 @@
+{
+ "tag": "sanity-unmodified",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work-sanity",
+ "head": "56150e6d052ef65b9fc258425b055affa28d7456",
+ "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+ "patch_lines": 0,
+ "time": "2026-10-11T09:05:59",
+ "correctness": {
+  "prompts": 24,
+  "identical": 24,
+  "near_tie_flips": 0,
+  "errors": [],
+  "correct": true
+ },
+ "status": "correct",
+ "no_drafts": {
+  "decode_tok_s": 95.55,
+  "decode_runs": [
+   95.62,
+   95.44,
+   95.78,
+   95.55,
+   95.33
+  ],
+  "prefill_tok_s": 6590.1,
+  "prefill_runs": [
+   6590.1,
+   6631.4,
+   6578.4
+  ]
+ },
+ "drafts": {
+  "decode_tok_s": 129.5,
+  "decode_runs": [
+   129.5,
+   129.05,
+   129.47,
+   129.62,
+   129.61
+  ]
+ },
+ "baseline_now_decode_tok_s": 95.4,
+ "speedup_decode": 1.0016,
+ "speedup_decode_drafts": 1.0017,
+ "speedup_prefill": 0.9983
+}

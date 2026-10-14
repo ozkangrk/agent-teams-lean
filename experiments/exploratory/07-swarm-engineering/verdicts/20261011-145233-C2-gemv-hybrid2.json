@@ -1,0 +1,46 @@
+{
+ "tag": "C2-gemv-hybrid2",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/wt-gemv",
+ "head": "3a334cd726475951403c8d2c62f2f30badcd50e0",
+ "patch_sha256": "edd904d99056bbd3d1473cc11c6f03d8a2f59c7ac4bfe3362ccecec706cf15c4",
+ "patch_lines": 219,
+ "time": "2026-10-11T14:52:33",
+ "correctness": {
+  "prompts": 24,
+  "identical": 24,
+  "near_tie_flips": 0,
+  "errors": [],
+  "correct": true
+ },
+ "status": "correct",
+ "no_drafts": {
+  "decode_tok_s": 94.81,
+  "decode_runs": [
+   94.59,
+   94.76,
+   95.08,
+   94.88,
+   94.81
+  ],
+  "prefill_tok_s": 6575.5,
+  "prefill_runs": [
+   6575.5,
+   6610.2,
+   6573.2
+  ]
+ },
+ "drafts": {
+  "decode_tok_s": 129.57,
+  "decode_runs": [
+   129.28,
+   129.2,
+   129.57,
+   129.69,
+   129.76
+  ]
+ },
+ "baseline_now_decode_tok_s": 96.17,
+ "speedup_decode": 0.9859,
+ "speedup_decode_drafts": 1.0022,
+ "speedup_prefill": 0.996
+}

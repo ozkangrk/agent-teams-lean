@@ -1,0 +1,14 @@
+2026-10-12T11:33:21+03:00 launch P1 hours=3 cpus=0-11 problems=pilot.jsonl
+2026-10-12T15:52:08+03:00 launch O1 hours=12 cpus=0-17 problems=sweep_oeis.jsonl
+2026-10-12T23:08:10+03:00 launch TS hours=8 cpus=0-8 problems=cs7_set.jsonl
+2026-10-12T23:08:10+03:00 launch TW hours=8 cpus=9-17 problems=cs7_set.jsonl
+2026-10-12T23:08:50+03:00 note: CS7 launched 23:08 (TS 0-8, TW 9-17, 8h, MEMMAX=20, sanitized overlay verified from inside sandbox: 0 comments/URLs); tmux -L research + sup/wd as systemd units
+2026-10-13 05:56:13 supervisors restarted as scopes sup2-cs6-{TS,TW}-1791860170 (harness fault: gate under systemd service fails bwrap loopback); agent-launched TS supervisor 942653 killed
+2026-10-13 05:56:27 identical manager notice sent to TS+TW: DENEY YONETICISI (iki kosula da ayni metin): (1) Denetleyici mesajlarindaki gate ciktisi bir altyapi hatasi yuzunden yanlisti ("bwrap: loopback: Failed RTM_NEWADDR" / bos accepted_verified). Hata giderildi; bundan sonraki gate ciktilari dogru. Kanitlariniz etkilenmedi; nihai karar sure sonunda hakemin yeniden calistirilmasiyla verilir. (2) KURAL: deney altyapisina dokunmak yasaktir. Denetleyici, watchdog, tmux ve systemd sureclerini durdurmayin, baslatmayin, degistirmeyin; sandbox disinda komut calistirmaya calismayin (tmux, systemd-run, systemctl dahil). Sadece kendi calisma dizininizde calisin.
+2026-10-13T17:43:27+03:00 launch cs8 IA1 hours=8 cpus=0-8 problems=cs7_set.jsonl agents=AGENTS.IA.md task=TASK.v2.md slice=cs8-ia.slice sandbox=v2
+2026-10-13T17:43:29+03:00 launch cs8 IA2 hours=8 cpus=0-8 problems=cs7_set.jsonl agents=AGENTS.IA.md task=TASK.v2.md slice=cs8-ia.slice sandbox=v2
+2026-10-13T17:43:30+03:00 launch cs8 IA3 hours=8 cpus=0-8 problems=cs7_set.jsonl agents=AGENTS.IA.md task=TASK.v2.md slice=cs8-ia.slice sandbox=v2
+2026-10-13T17:43:30+03:00 launch cs8 IA4 hours=8 cpus=0-8 problems=cs7_set.jsonl agents=AGENTS.IA.md task=TASK.v2.md slice=cs8-ia.slice sandbox=v2
+2026-10-14T07:11:41+03:00 launch cs9 TS2 hours=8 cpus=9-17 problems=cs7_set.jsonl agents=AGENTS.TS2.md task=TASK.v2.md slice=none sandbox=v2
+2026-10-14T07:11:41+03:00 launch cs9 TW2 hours=8 cpus=0-8 problems=cs7_set.jsonl agents=AGENTS.TW2.md task=TASK.v2.md slice=none sandbox=v2
+2026-10-14T07:12:03+03:00 note: CS9 launched 07:11:41 (TS2 cores 9-17, TW2 cores 0-8, 8h, MEMMAX=20, v2 sandbox, sanitized overlay, TASK.v2); both agents' first tool calls succeeded; deadline 15:11, grace 15:26

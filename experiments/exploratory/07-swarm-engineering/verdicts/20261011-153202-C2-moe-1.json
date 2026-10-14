@@ -1,0 +1,9 @@
+{
+ "tag": "C2-moe-1",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/TensorFold",
+ "head": "20d51ad1e45b6f6a31ef578bc9ca83f73d5ff138",
+ "patch_sha256": "674b9cd04dc9ad9cb89955912ec7198d5979df4034f957ed801428cfff5d6e99",
+ "patch_lines": 917,
+ "time": "2026-10-11T15:32:02",
+ "status": "unit_tests_failed"
+}

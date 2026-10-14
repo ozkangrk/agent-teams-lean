@@ -1,0 +1,59 @@
+{
+ "_note": "Numbers that exist only in prose records or terminal measurements; each with its source. build_data.py turns them into macros.",
+ "CSfourTimeOne": {
+  "value": 99,
+  "source": "08-swarm-math/conditions/evaluations.md: S1 reached all 7 valid solutions after 99 min (incl. 38-min stall, D1)"
+ },
+ "CSfourTimeTwo": {
+  "value": 33,
+  "source": "08-swarm-math/conditions/evaluations.md: S2 reached all 7 valid solutions after 33 min"
+ },
+ "RateLow": {
+  "value": 15,
+  "source": "z.ai concurrency probe 2026-10-12: 24 concurrent -> 15 OK; 48 concurrent -> 26 OK, rest HTTP 429 code 1302"
+ },
+ "RateHigh": {
+  "value": 25,
+  "source": "same probe (rounded upper range)"
+ },
+ "LeanFiles": {
+  "value": "1{,}495",
+  "source": "10-swarm-lean/referee/sanitize.py output: sanitized 1495 Lean files"
+ },
+ "OeisLinesDropped": {
+  "value": 132,
+  "source": "10-swarm-lean/conditions/PREREG_CS7.md amendment A1"
+ },
+ "EscapeMin": {
+  "value": 14,
+  "source": "TS session file: first out-of-sandbox call 02:35:56Z, supervisor relaunch 02:48:55Z, ledger note 02:49:42Z"
+ },
+ "EscapeCalls": {
+  "value": 8,
+  "source": "TS session file: 8 tool calls with `tmux -L research new-window`, 4 of them with systemd-run (DEVIATIONS D6)"
+ },
+ "EscapeSystemd": {
+  "value": 4,
+  "source": "same"
+ },
+ "WatchdogBlockMin": {
+  "value": 21,
+  "source": "10-swarm-lean/work/TS/watchdog.log: blocked 21 min in-kernel at 23:33 and 00:00"
+ },
+ "CSnineLossTS": {
+  "value": 45,
+  "source": "10-swarm-lean/conditions/DEVIATIONS.md D11 update: TS2 outage ~09:36-10:21"
+ },
+ "CSnineLossTW": {
+  "value": 15,
+  "source": "10-swarm-lean/conditions/DEVIATIONS.md D11 update: TW2 outage ~10:01-10:16 plus intermittent errors from 09:47"
+ },
+ "CSeightToolCalls": {
+  "value": "3{,}175",
+  "source": "integrity_scan.py IA1-IA4 final (1067+789+691+628), 2026-10-14 ~02:20"
+ },
+ "CSnineToolCalls": {
+  "value": "2{,}368",
+  "source": "integrity_scan.py TS2+TW2 final (665+1703), 2026-10-14 ~16:20"
+ }
+}

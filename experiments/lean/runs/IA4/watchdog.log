@@ -1,0 +1,10 @@
+2026-10-13T17:43:30 watchdog start limit=20min until=01:58
+2026-10-13T18:18:30 session d4c7a0af6c95 (depth 0) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": false, "error": "No queued
+2026-10-13T18:18:35   continue notice -> Sent to d4c7a0af6c95
+2026-10-13T18:39:35 session d4c7a0af6c95 (depth 0) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": false, "error": "No queued
+2026-10-13T18:39:40   continue notice -> Sent to d4c7a0af6c95
+2026-10-13T20:31:42 session d4c7a0af6c95 (depth 0) blocked 20 min in-kernel; abort -> [{"command": "abort", "success": true, "error": null}, {"command": "resume_queue", "success": false, "error": "No queued
+2026-10-13T20:31:47   continue notice -> Sent to d4c7a0af6c95
+2026-10-14T00:56:48 session d4c7a0af6c95 (depth 0) blocked 21 min; terminating pid 3279169 (age 21 min, tree [3279169, 3279192]): "/bin/sh -c ls /home/ozkangu/Desktop/research/10-swarm-lean/upstream/formal-conjectures/FormalConjectures/WrittenOnTheWallII/ | head; grep -rln 'def eccSet' /home/ozkangu/Desktop/research/10-swarm-lean/upstream/formal-conjectures/"
+2026-10-14T01:17:09 session d4c7a0af6c95 (depth 0) blocked 20 min; terminating pid 3312197 (age 20 min, tree [3312197, 3312198, 3312199]): "/bin/sh -c grep -rn 'def eccSet\\|def ecc ' /home/ozkangu/Desktop/research/10-swarm-lean/upstream/formal-conjectures/ 2>/dev/null | head -5; grep -rn 'eccSet' /home/ozkangu/Desktop/research/10-swarm-lean/upstream/formal-conjectures/FormalConjectures/WrittenOnTheWallII/GraphConjecture142.lean"
+2026-10-14T01:58:36 watchdog stop (until reached)

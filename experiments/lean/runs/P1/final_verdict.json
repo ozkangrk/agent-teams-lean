@@ -1,0 +1,80 @@
+{
+ "ErdosProblems-138-monoAPNumber_two_one": {
+  "accepted": true,
+  "module": "FormalConjectures.ErdosProblems.«138»",
+  "theorem": "Erdos138.monoAPNumber_two_one",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.1
+ },
+ "ErdosProblems-138-monoAPNumber_two_two": {
+  "accepted": true,
+  "module": "FormalConjectures.ErdosProblems.«138»",
+  "theorem": "Erdos138.monoAPNumber_two_two",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.5
+ },
+ "ErdosProblems-1074-erdos_1074.variants.EHSNumbers_init": {
+  "accepted": true,
+  "module": "FormalConjectures.ErdosProblems.«1074»",
+  "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_init",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.6
+ },
+ "ErdosProblems-1074-erdos_1074.variants.PillaiPrimes_init": {
+  "accepted": false,
+  "stage": "static",
+  "why": "no top-level `theorem swarm_proof`"
+ },
+ "ErdosProblems-1036-erdos_1036": {
+  "accepted": false,
+  "why": "no proof file"
+ },
+ "ErdosProblems-698-erdos_698": {
+  "accepted": false,
+  "stage": "static",
+  "why": "forbidden constructs: ['\\\\bsorry\\\\b']"
+ },
+ "OEIS-113250-conjecture": {
+  "accepted": true,
+  "module": "FormalConjectures.OEIS.«113250»",
+  "theorem": "OeisA113250.conjecture",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 5.0
+ },
+ "ErdosProblems-966-erdos_966": {
+  "accepted": false,
+  "why": "no proof file"
+ },
+ "ErdosProblems-650-erdos_650.variants.erdos_selfridge": {
+  "accepted": false,
+  "why": "no proof file"
+ },
+ "ErdosProblems-812-erdos_812.variants.lower_bound": {
+  "accepted": false,
+  "why": "no proof file"
+ },
+ "ErdosProblems-1050-erdos_1050.variants.borwein": {
+  "accepted": false,
+  "why": "no proof file"
+ },
+ "ErdosProblems-206-erdos_206": {
+  "accepted": false,
+  "why": "no proof file"
+ }
+}

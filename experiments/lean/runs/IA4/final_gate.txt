@@ -1,0 +1,13 @@
+{
+ "accepted_verified": [
+  "OEIS-103425-conjecture",
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-70823-conjecture",
+  "OEIS-3625-conjecture",
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-113250-conjecture"
+ ]
+}
+[PASS] cs6 gate

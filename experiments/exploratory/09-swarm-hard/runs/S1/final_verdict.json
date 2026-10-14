@@ -1,0 +1,59 @@
+{
+ "keich-128": {
+  "valid": true,
+  "score": 0.10819492283726259,
+  "gap_rel": -0.05762027878752311,
+  "matches_record": true,
+  "beats_record": true
+ },
+ "heilbronn-12": {
+  "valid": true,
+  "score": 0.032598858691585825,
+  "gap_rel": 7.1743437781728666e-12,
+  "matches_record": true,
+  "beats_record": false
+ },
+ "tammes-15": {
+  "valid": true,
+  "score": 53.657850129932676,
+  "max_cos": 0.592605902925074,
+  "gap_rel": -1.3242102209453388e-16,
+  "matches_record": true,
+  "beats_record": false
+ },
+ "autocorr-c1": {
+  "valid": true,
+  "score": 2.0,
+  "n_steps": 50,
+  "gap_rel": 0.33080453671526283,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "dts-7-5": {
+  "valid": false,
+  "why": "no solution file"
+ },
+ "vdw-2-7": {
+  "valid": false,
+  "why": "no solution file"
+ },
+ "cwcode-29-8-5": {
+  "valid": false,
+  "why": "no solution file"
+ },
+ "covering-13-7-4": {
+  "valid": true,
+  "score": 30,
+  "gap_rel": 0.0,
+  "matches_record": true,
+  "beats_record": false
+ },
+ "bklc-68-15": {
+  "valid": false,
+  "why": "no solution file"
+ },
+ "ruler-10000": {
+  "valid": false,
+  "why": "no solution file"
+ }
+}

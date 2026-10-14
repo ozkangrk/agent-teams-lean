@@ -1,0 +1,21 @@
+# TS2 result
+
+Accepted proofs: 11
+
+```json
+{
+ "accepted": [
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-113250-conjecture",
+  "OEIS-113252-conjecture",
+  "OEIS-113255-conjecture",
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-108306-conjecture",
+  "OEIS-3625-conjecture",
+  "OEIS-103425-conjecture",
+  "OEIS-237271-observation_carmichael"
+ ]
+}
+```

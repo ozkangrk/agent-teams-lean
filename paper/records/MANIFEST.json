@@ -1,0 +1,114 @@
+{
+ "cs7_analysis.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/cs7_analysis.json",
+  "sha256": "a9fa2b316cb6280c086b6a6c85476dc619f6836c632bb13b9cdbfe658ad6f01f"
+ },
+ "cs7_set.jsonl": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/cs7_set.jsonl",
+  "sha256": "5d6a2ffe261fcf19e01adcb27d543976d3e03e9201eb3b436daee3c1f2887977"
+ },
+ "cs7_snapshots.jsonl": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/snapshots.jsonl",
+  "sha256": "c3ca8192385a6a0033a532f4835b81b57f830a86c7808a37d1b76a2095186ccd"
+ },
+ "cs7_TS_ledger.jsonl": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TS/ledger.jsonl",
+  "sha256": "2d5fb17517e7885c0fa872b7045cca98f0aeddc27a5566e8f2f1f68bb688fccc"
+ },
+ "cs7_TW_ledger.jsonl": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TW/ledger.jsonl",
+  "sha256": "895387c08a6f88e3db6e0750222c8cbe72c51c91e38660da7a2609acb22a57be"
+ },
+ "token_account.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/token_account.json",
+  "sha256": "12b77d51e8ec869bad730edda9a094f3a3c01bde0158e57f4f4159c7183e83fb"
+ },
+ "cs7_TS_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TS/final_verdict.json",
+  "sha256": "1f818962f9eefcde8da34a336405ae4f04212f73addcfde9bb24478dace9c498"
+ },
+ "cs7_TW_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TW/final_verdict.json",
+  "sha256": "321db658ba97f5da4c10e610bf6543c236d081a7dce04a8583f65ef5fe4ff91a"
+ },
+ "cs4_S1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/08-swarm-math/work/S1/final_verdict.json",
+  "sha256": "f3b74cf35c2ad433211df4f6c92bff38a9ddb9f97f98b3669a02568da5089762"
+ },
+ "cs4_S2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/08-swarm-math/work/S2/final_verdict.json",
+  "sha256": "a7c4a9281f23e6a9e95f50e5e4a4ecefb2eb14e0782b4c2a82c6a14cb1b1a10d"
+ },
+ "cs5_S1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/09-swarm-hard/work/S1/final_verdict.json",
+  "sha256": "864e4ea038eb370bf5148e837d66a4317a04cecf8759f365ed5091ba13e2525a"
+ },
+ "cs5_S2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/09-swarm-hard/work/S2/final_verdict.json",
+  "sha256": "e5c36062f9bfa33f56d6fd9ea7f1eefe4e724fb671f55afca086a6bf2c3a3d66"
+ },
+ "cs5_S3_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/09-swarm-hard/work/S3/final_verdict.json",
+  "sha256": "ffb2e389fefc8e68c1732bb26f6448eb9aefd0e2b83d386cb373554286788754"
+ },
+ "cs3_C1_gate_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/07-swarm-engineering/verdicts/20261011-130451-C1-gate/verdict.json",
+  "sha256": "2460f696c5e889fac3b42f96934e47c6466c14b0952ea159a94c7cf87aca305d"
+ },
+ "cs3_C1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/07-swarm-engineering/verdicts/20261011-112557-C1-final/verdict.json",
+  "sha256": "88e38e3a054be8308258e027f19a66ccd84de981a9f72618c09903354f465003"
+ },
+ "cs3_C2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/07-swarm-engineering/verdicts/20261011-160918-C2-final2/verdict.json",
+  "sha256": "a1e22f061ed34c721d86e775009900908b8826da7d009c082e55c81480c0a46a"
+ },
+ "cs3_C1_hidden.log": {
+  "source": "/home/ozkangu/Desktop/research/07-swarm-engineering/conditions/C1_hidden.log",
+  "sha256": "f5c3a7c75e61deee5efb82d9303ea7104cc8802fabe55572f10aa85bb51352be"
+ },
+ "cs3_C2_hidden.log": {
+  "source": "/home/ozkangu/Desktop/research/07-swarm-engineering/conditions/C2_hidden.log",
+  "sha256": "f82cf16c65eb263669fafaeb3ed57558f2157fd361b1f158f6bb5b9fb42c30e1"
+ },
+ "cs6_P1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/P1/final_verdict.json",
+  "sha256": "2ce2200684318da64aa4be029c8b313430e166cedecbce4d16020ff7a06d5dac"
+ },
+ "cs6_O1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/O1/final_verdict.json",
+  "sha256": "226f52e0f8d6a270848bd542c1f50681d45a95089cf12217665ea835f9267964"
+ },
+ "cs8_analysis.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/cs8_analysis.json",
+  "sha256": "43b3b99122dd87ba5c3861761ba87c77d91eb6b76d103d8a3bd8a411dabefad6"
+ },
+ "cs9_analysis.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/conditions/cs9_analysis.json",
+  "sha256": "141f904d6a7d0e98a4951f9e5e2d3e0e5fde1394559a03a7569614bccdc9f3fd"
+ },
+ "cs8_IA1_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/IA1/final_verdict.json",
+  "sha256": "7a5e986396386ca05068633df86023a9618e130716932229605eb80c887375e4"
+ },
+ "cs8_IA2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/IA2/final_verdict.json",
+  "sha256": "67a7518584ad31ec18911746403d5b139ba18fd5036e65d8c57b3696c3fb568d"
+ },
+ "cs8_IA3_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/IA3/final_verdict.json",
+  "sha256": "15f4615af79d6daf2282bdfc1d5c08439910966df851f074eef6fa0d1c5d7483"
+ },
+ "cs8_IA4_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/IA4/final_verdict.json",
+  "sha256": "5f69564df12095b6f0528573188c8998f43ffbf7f90f602c0da96c430b8c4b76"
+ },
+ "cs9_TS2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TS2/final_verdict.json",
+  "sha256": "0a9ee416b964f15ffc2412ba4e3f1b0fe3cb6a0ba3320dbdc4e6d4a3b7c40640"
+ },
+ "cs9_TW2_final_verdict.json": {
+  "source": "/home/ozkangu/Desktop/research/10-swarm-lean/work/TW2/final_verdict.json",
+  "sha256": "1b7643a5e8144411270f5266bf9241833db0f75deef19ed83125b78991ae1993"
+ }
+}

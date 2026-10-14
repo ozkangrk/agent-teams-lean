@@ -1,0 +1,46 @@
+{
+ "tag": "C1-gate",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C1/TensorFold",
+ "head": "d11745f696cc015c57228e5d124162d5bcea3dc8",
+ "patch_sha256": "670d1140880480312996ac592504e9ce41be7ccd1195cd615c636d44e7908ab2",
+ "patch_lines": 514,
+ "time": "2026-10-11T13:04:51",
+ "correctness": {
+  "prompts": 24,
+  "identical": 24,
+  "near_tie_flips": 0,
+  "errors": [],
+  "correct": true
+ },
+ "status": "correct",
+ "no_drafts": {
+  "decode_tok_s": 98.17,
+  "decode_runs": [
+   98.11,
+   98.35,
+   98.17,
+   98.09,
+   98.42
+  ],
+  "prefill_tok_s": 6555.8,
+  "prefill_runs": [
+   6555.8,
+   6550.4,
+   6573.6
+  ]
+ },
+ "drafts": {
+  "decode_tok_s": 133.18,
+  "decode_runs": [
+   133.22,
+   133.09,
+   133.18,
+   133.25,
+   133.09
+  ]
+ },
+ "baseline_now_decode_tok_s": 95.78,
+ "speedup_decode": 1.025,
+ "speedup_decode_drafts": 1.0302,
+ "speedup_prefill": 0.9931
+}

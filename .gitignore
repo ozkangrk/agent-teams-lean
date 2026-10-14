@@ -1,0 +1,5 @@
+__pycache__/
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out

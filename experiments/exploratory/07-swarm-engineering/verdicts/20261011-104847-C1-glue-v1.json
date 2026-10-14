@@ -1,0 +1,29 @@
+{
+ "tag": "C1-glue-v1",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C1/TensorFold",
+ "head": "1152322ff4c1b3ba55d8d792b7b3a991fe2f1677",
+ "patch_sha256": "523665af5ac0912ad9ffbb1a02c391015d737cd472ea673333bdb97c56856dc4",
+ "patch_lines": 402,
+ "time": "2026-10-11T10:48:47",
+ "correctness": {
+  "prompts": 24,
+  "identical": 8,
+  "near_tie_flips": 4,
+  "errors": [
+   "prose-1: diverges at token 11 (' sun' -> ' first', baseline top-2 gap 0.125 nats)",
+   "prose-2: diverges at token 21 (' reason' -> ' Moon', baseline top-2 gap 0.125 nats)",
+   "prose-3: diverges at token 52 (' another' -> ' at', baseline top-2 gap 0.125 nats)",
+   "prose-5: logprob drift mean 0.0446 max 0.4094 before divergence",
+   "code-2: logprob drift mean 0.0071 max 0.2873 before divergence",
+   "code-3: diverges at token 36 (' Function' -> ' The', baseline top-2 gap 0.125 nats)",
+   "code-5: diverges at token 156 (' `' -> ' ', baseline top-2 gap 1.375 nats)",
+   "math-3: diverges at token 126 ('since' -> 'or', baseline top-2 gap 0.125 nats)",
+   "math-4: diverges at token 52 (' check' -> ' try', baseline top-2 gap 0.250 nats)",
+   "tr-1: logprob drift mean 0.0324 max 0.2151 before divergence",
+   "tr-2: logprob drift mean 0.0287 max 0.4753 before divergence",
+   "tr-3: logprob drift mean 0.0227 max 0.2897 before divergence"
+  ],
+  "correct": false
+ },
+ "status": "incorrect"
+}

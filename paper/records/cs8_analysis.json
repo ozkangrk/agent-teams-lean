@@ -1,0 +1,178 @@
+{
+ "N": 100,
+ "per_agent": {
+  "IA1": 14,
+  "IA2": 10,
+  "IA3": 14,
+  "IA4": 8
+ },
+ "per_agent_ids": {
+  "IA1": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-103425-conjecture",
+   "OEIS-108306-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-113252-conjecture",
+   "OEIS-113255-conjecture",
+   "OEIS-129365-conjecture1",
+   "OEIS-129365-conjecture2",
+   "OEIS-237271-conjecture_5",
+   "OEIS-3625-conjecture",
+   "OEIS-93456-conjecture"
+  ],
+  "IA2": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-103425-conjecture",
+   "OEIS-108306-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-113252-conjecture",
+   "OEIS-113255-conjecture",
+   "OEIS-70823-conjecture"
+  ],
+  "IA3": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-103425-conjecture",
+   "OEIS-108306-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-113252-conjecture",
+   "OEIS-113255-conjecture",
+   "OEIS-129365-conjecture1",
+   "OEIS-129365-conjecture2",
+   "OEIS-237271-conjecture_5",
+   "OEIS-237271-observation_carmichael",
+   "OEIS-3625-conjecture"
+  ],
+  "IA4": [
+   "OEIS-100434-conjecture2",
+   "OEIS-100434-conjecture3",
+   "OEIS-103425-conjecture",
+   "OEIS-112970-conjecture1",
+   "OEIS-112970-conjecture2",
+   "OEIS-113250-conjecture",
+   "OEIS-3625-conjecture",
+   "OEIS-70823-conjecture"
+  ]
+ },
+ "union": 16,
+ "union_ids": [
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-103425-conjecture",
+  "OEIS-108306-conjecture",
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-113250-conjecture",
+  "OEIS-113252-conjecture",
+  "OEIS-113255-conjecture",
+  "OEIS-129365-conjecture1",
+  "OEIS-129365-conjecture2",
+  "OEIS-237271-conjecture_5",
+  "OEIS-237271-observation_carmichael",
+  "OEIS-3625-conjecture",
+  "OEIS-70823-conjecture",
+  "OEIS-93456-conjecture"
+ ],
+ "sum_of_agents": 46,
+ "expected_union_k": {
+  "1": 11.5,
+  "2": 14.333333333333334,
+  "3": 15.5,
+  "4": 16.0
+ },
+ "solved_by_2plus": 14,
+ "multiplicity": {
+  "OEIS-237271-conjecture_5": 2,
+  "OEIS-70823-conjecture": 2,
+  "OEIS-237271-observation_carmichael": 1,
+  "OEIS-113255-conjecture": 3,
+  "OEIS-103425-conjecture": 4,
+  "OEIS-108306-conjecture": 3,
+  "OEIS-129365-conjecture1": 2,
+  "OEIS-129365-conjecture2": 2,
+  "OEIS-113252-conjecture": 3,
+  "OEIS-112970-conjecture1": 4,
+  "OEIS-93456-conjecture": 1,
+  "OEIS-113250-conjecture": 4,
+  "OEIS-100434-conjecture3": 4,
+  "OEIS-100434-conjecture2": 4,
+  "OEIS-3625-conjecture": 3,
+  "OEIS-112970-conjecture2": 4
+ },
+ "new_vs_cs7": [
+  "OEIS-129365-conjecture2"
+ ],
+ "tw_only_cs7_in_union": [
+  "OEIS-103425-conjecture",
+  "OEIS-129365-conjecture1",
+  "OEIS-237271-conjecture_5",
+  "OEIS-237271-observation_carmichael",
+  "OEIS-93456-conjecture"
+ ],
+ "C2_union_vs_TS7": {
+  "b_union_only": 6,
+  "c_TS_only": 0,
+  "p_one_sided": 0.015625
+ },
+ "union_vs_TW7": {
+  "b_TW_only": 1,
+  "c_union_only": 1,
+  "p_two_sided": 1.0,
+  "tango_CI95_TW_minus_union": [
+   -0.0456,
+   0.0456
+  ],
+  "note": "CS7 TW has the D8 caveat"
+ },
+ "tokens_output_total": 3681547,
+ "token_matched": {
+  "CS7-TS": {
+   "ref_output": 539441,
+   "reached_at_utc": "2026-10-13T15:48:14",
+   "union_at_budget": 3,
+   "ids": [
+    "OEIS-103425-conjecture",
+    "OEIS-112970-conjecture1",
+    "OEIS-112970-conjecture2"
+   ]
+  },
+  "CS7-TW": {
+   "ref_output": 2451656,
+   "reached_at_utc": "2026-10-13T19:02:13",
+   "union_at_budget": 12,
+   "ids": [
+    "OEIS-100434-conjecture2",
+    "OEIS-100434-conjecture3",
+    "OEIS-103425-conjecture",
+    "OEIS-112970-conjecture1",
+    "OEIS-112970-conjecture2",
+    "OEIS-113250-conjecture",
+    "OEIS-113252-conjecture",
+    "OEIS-113255-conjecture",
+    "OEIS-237271-observation_carmichael",
+    "OEIS-3625-conjecture",
+    "OEIS-70823-conjecture",
+    "OEIS-93456-conjecture"
+   ]
+  }
+ },
+ "union_curve_by_hour": {
+  "2026-10-13T18": 3,
+  "2026-10-13T19": 7,
+  "2026-10-13T20": 11,
+  "2026-10-13T21": 12,
+  "2026-10-13T22": 14,
+  "2026-10-13T23": 16,
+  "2026-10-14T00": 16,
+  "2026-10-14T01": 16,
+  "2026-10-14T02": 16
+ }
+}

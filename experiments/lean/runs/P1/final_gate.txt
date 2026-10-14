@@ -1,0 +1,4 @@
+{
+ "accepted_verified": []
+}
+[FAIL] RESULT.md needs a ```json {"accepted": [ids]}``` block

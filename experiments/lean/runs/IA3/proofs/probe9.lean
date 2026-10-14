@@ -1,0 +1,14 @@
+import Mathlib
+#check @Nat.dvd_iff_factorization_le
+#check @Nat.factorization_le_factorization_iff_dvd
+#check @Nat.Prime.factorization_prod_apply
+#check @Nat.Prime.factorization_factorial
+#check @padicValNat_factorial
+#check @Nat.Prime.factorization_pow
+#check @Nat.Prime.factorization_gcd
+#check @padicValNat.finset_prod
+#check @Nat.Prime.padicValNat_prod
+#check @Nat.pow_dvd_iff_le_factorization
+#check @Nat.Prime.factorization_dvd
+#check @Finset.card_Icc
+#check @Nat.factorization_pos_of_pos

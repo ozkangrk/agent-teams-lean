@@ -1,0 +1,25 @@
+import Mathlib
+open Finset Nat
+#check @Nat.support_factorization
+#check @Nat.factorization_apply
+#check @Finset.card_Ico
+#check @Finset.card_Icc
+#check @Finset.sum_const
+#check @Finset.sum_le_sum
+#check @Finset.sum_comm
+#check @Nat.div_div_eq_div_mul
+#check @Nat.log_le_self
+#check @pow_dvd_iff_le_padicValNat
+#check @Nat.Prime.two_le
+#check @Finset.prod_ne_zero_iff
+#check @Finsupp.le_def
+#check @Finsupp.finset_sum_apply
+#check @Finset.sum_ite_eq_and
+#check @Finset.mem_Icc
+#check @Nat.div_pos
+#check @Finset.sum_congr
+#check @Finset.mul_sum
+#check @Finset.prod_dvd_prod_of_dvd
+#check @Nat.factorization_pos_of_mem
+#check @padicValNat_gcd
+#check @Nat.Prime.one_lt

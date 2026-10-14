@@ -1,0 +1,31 @@
+{
+ "tag": "C2-glue3",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/wt-glue",
+ "head": "7040fce7a6cc77086677e2d859d4468aa32ac7d5",
+ "patch_sha256": "7aee9ef87d210412d4075a92ef763046fec0d0498769be4c695aa20f2cc39aa5",
+ "patch_lines": 547,
+ "time": "2026-10-11T15:26:00",
+ "correctness": {
+  "prompts": 24,
+  "identical": 7,
+  "near_tie_flips": 3,
+  "errors": [
+   "prose-1: logprob drift mean 0.0339 max 0.1577 before divergence",
+   "prose-2: logprob drift mean 0.0485 max 0.2864 before divergence",
+   "prose-3: diverges at token 23 ('.\n\n' -> '.', baseline top-2 gap 0.500 nats)",
+   "prose-4: logprob drift mean 0.0215 max 0.3169 before divergence",
+   "prose-5: logprob drift mean 0.0397 max 0.2275 before divergence",
+   "code-2: logprob drift mean 0.0132 max 0.6521 before divergence",
+   "code-3: diverges at token 26 (' breakdown' -> ' step', baseline top-2 gap 0.125 nats)",
+   "code-5: diverges at token 70 (' does' -> ' cannot', baseline top-2 gap 0.125 nats)",
+   "math-1: diverges at token 29 ('Set' -> 'Break', baseline top-2 gap 0.125 nats)",
+   "math-3: diverges at token 6 (' calculation' -> ' solution', baseline top-2 gap 0.250 nats)",
+   "math-4: diverges at token 52 (' check' -> ' try', baseline top-2 gap 0.250 nats)",
+   "tr-1: logprob drift mean 0.0463 max 0.2132 before divergence",
+   "tr-2: logprob drift mean 0.0319 max 0.1570 before divergence",
+   "reason-1: diverges at token 17 (' a' -> ' logical', baseline top-2 gap 0.000 nats)"
+  ],
+  "correct": false
+ },
+ "status": "incorrect"
+}

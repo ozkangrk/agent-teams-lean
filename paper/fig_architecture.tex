@@ -1,0 +1,73 @@
+% Architecture of the CS7 conditions and the shared harness (TikZ).
+\begin{tikzpicture}[
+  font=\footnotesize, >=Stealth,
+  agent/.style={draw, rounded corners=2pt, fill=blue!8, minimum height=8mm, align=center, inner sep=3pt},
+  worker/.style={draw, rounded corners=2pt, fill=blue!5, minimum width=11mm, minimum height=6mm, align=center, inner sep=2pt, font=\scriptsize},
+  kern/.style={draw, fill=white, minimum height=5mm, minimum width=11mm, align=center, inner sep=2pt, font=\scriptsize},
+  store/.style={draw, fill=yellow!12, align=center, inner sep=3pt, minimum height=8mm, font=\scriptsize},
+  harness/.style={draw, rounded corners=2pt, fill=white, align=center, inner sep=3pt, minimum height=12mm, text width=33mm, font=\scriptsize},
+  sand/.style={draw, dashed, rounded corners=3pt, inner sep=3pt, red!60!black},
+  lbl/.style={font=\scriptsize\itshape, text=black!65},
+  title/.style={font=\small\bfseries, anchor=south west, inner sep=1pt},
+]
+% ---------------- model API ----------------
+\node[draw, rounded corners=3pt, fill=green!8, minimum width=17.4cm, minimum height=7mm, align=center] (api) at (-0.15,1.2)
+  {\textbf{GLM-5.3 via the provider API}\quad (one shared account for both conditions: about 15--25 concurrent requests, 5-hour usage quota)};
+
+% ---------------- TS (single agent) ----------------
+\node[agent, text width=33mm] (tsa) at (-5.75,-0.5) {\textbf{Single agent} (GLM-5.3)\\no subagents};
+\node[kern, text width=33mm] (tsk) at (-5.75,-2.55) {Python kernel (REPL):\\Lean checks, scripts};
+\node[sand, fit=(tsk)] {};
+\node[store, text width=33mm] (tsw) at (-5.75,-4.2) {workspace: \texttt{proofs/},\\ledger, \texttt{RESULT.md}};
+\draw[->] (tsa) -- node[lbl, right] {tool calls} (tsk);
+\draw[->] (tsk) -- (tsw);
+\draw[rounded corners=4pt] (-7.9,0.25) rectangle (-3.6,-4.95);
+\node[title] at (-7.9,0.27) {TS: single agent};
+\node[lbl, anchor=south east] at (-3.65,-4.93) {cores 0--8};
+
+% ---------------- TW (team) ----------------
+\node[agent, text width=40mm] (orc) at (0.6,-0.5) {\textbf{Orchestrator} (GLM-5.3)\\triage, assignment, merging};
+\node[kern] (ok) at (4.1,-0.5) {kernel};
+\node[sand, fit=(ok)] {};
+\draw[->] (orc) -- (ok);
+\foreach \i/\x/\n in {1/-1.9/W1, 2/-0.55/W2, 3/0.8/W3, 6/3.0/W6} {
+  \node[worker] (w\i) at (\x,-1.95) {\n};
+  \node[kern] (k\i) at (\x,-2.95) {kernel};
+  \draw[->] (w\i) -- (k\i);
+}
+\node at (1.9,-1.95) {$\cdots$};
+\node[lbl, align=left, anchor=west] at (3.75,-1.95) {$\le 6$ workers at once\\(each GLM-5.3)};
+\node[sand, fit=(k1)(k6)] {};
+\draw[->] (orc.south west) ++(0.4,0) -- (w1.north);
+\draw[->] (orc.south) ++(-0.7,0) -- (w2.north);
+\draw[<-, densely dotted, thick] (orc.south) ++(0.15,0) -- (w3.north);
+\draw[->] (orc.south east) ++(-0.5,0) -- (w6.north);
+\node[lbl, anchor=east] at (-1.55,-1.15) {\texttt{rlm.spawn}};
+\node[lbl, anchor=west] at (1.0,-1.3) {messages};
+\node[store, text width=70mm] (tww) at (1.1,-4.2) {shared workspace: \texttt{proofs/}, ledger, \texttt{RESULT.md}, \texttt{TRIAGE.md}};
+\foreach \i in {1,2,3,6} \draw[->] (k\i.south) -- (k\i.south |- tww.north);
+\draw[rounded corners=4pt] (-2.75,0.25) rectangle (6.9,-4.95);
+\node[title] at (-2.75,0.27) {TW: orchestrator--worker team};
+\node[lbl, anchor=south east] at (6.85,-4.93) {cores 9--17};
+
+% model calls (every agent calls the same API)
+\draw[<->, thick, green!40!black] (-4.2,0.25) -- (-4.2,0.85);
+\draw[<->, thick, green!40!black] (5.6,0.25) -- (5.6,0.85);
+\node[lbl, anchor=west] at (5.68,0.55) {every agent};
+
+% ---------------- harness ----------------
+\node[harness] (sup) at (-5.85,-6.9) {\textbf{Supervisor}\\gate-output nudges when idle;\\pre-check; deadline};
+\node[harness] (wd) at (-2.05,-6.9) {\textbf{Watchdog}\\aborts any tool call\\blocked for $>$20 min};
+\node[harness] (ref) at (1.75,-6.9) {\textbf{Referee}\\Lean kernel; upstream\\constant; axiom whitelist};
+\node[harness] (snap) at (5.55,-6.9) {\textbf{Scoring}\\hourly snapshots and\\final re-run (cores 18--19)};
+\begin{scope}[on background layer]
+  \draw[rounded corners=4pt, fill=gray!10] (-7.9,-5.95) rectangle (7.6,-7.85);
+\end{scope}
+\node[font=\small\bfseries, anchor=north west] at (-7.9,-7.9) {Experimenter's harness: identical for both conditions, read-only for the agents};
+
+% harness <-> conditions
+\draw[->, dashed, gray!50!black] (-6.8,-5.95) -- node[lbl, left] {nudges, aborts} (-6.8,-4.95);
+\draw[<-, gray!50!black] (-4.6,-5.95) -- node[lbl, right] {proofs} (-4.6,-4.95);
+\draw[->, dashed, gray!50!black] (-0.6,-5.95) -- node[lbl, left] {nudges, aborts} (-0.6,-4.95);
+\draw[<-, gray!50!black] (3.6,-5.95) -- node[lbl, right] {proofs} (3.6,-4.95);
+\end{tikzpicture}

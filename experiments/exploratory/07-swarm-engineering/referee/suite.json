@@ -1,0 +1,209 @@
+[
+ {
+  "id": "prose-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Describe a morning market in a coastal town in about 150 words."
+   }
+  ]
+ },
+ {
+  "id": "prose-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Explain to a ten-year-old why the Moon has phases."
+   }
+  ]
+ },
+ {
+  "id": "prose-3",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Write a short, polite email declining a meeting invitation for Thursday."
+   }
+  ]
+ },
+ {
+  "id": "prose-4",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Summarise the causes of the First World War in five bullet points."
+   }
+  ]
+ },
+ {
+  "id": "prose-5",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Write the opening paragraph of a mystery novel set in a lighthouse."
+   }
+  ]
+ },
+ {
+  "id": "code-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Write a Python function that returns the n-th Fibonacci number iteratively, with a docstring."
+   }
+  ]
+ },
+ {
+  "id": "code-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Write a SQL query that returns the top 5 customers by total order value from tables customers(id, name) and orders(id, customer_id, amount)."
+   }
+  ]
+ },
+ {
+  "id": "code-3",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Explain what this Rust code does:\nfn f(v: &[i32]) -> i32 { v.iter().filter(|x| **x % 2 == 0).sum() }"
+   }
+  ]
+ },
+ {
+  "id": "code-4",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Write a bash one-liner that counts lines in all .py files under the current directory."
+   }
+  ]
+ },
+ {
+  "id": "code-5",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Find the bug: def avg(xs): return sum(xs) / len(xs) - what happens for an empty list and how do you fix it?"
+   }
+  ]
+ },
+ {
+  "id": "math-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "What is 17 * 23? Show the steps."
+   }
+  ]
+ },
+ {
+  "id": "math-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Solve for x: 3x + 7 = 31. Explain each step."
+   }
+  ]
+ },
+ {
+  "id": "math-3",
+  "messages": [
+   {
+    "role": "user",
+    "content": "A train travels 180 km in 2.5 hours. What is its average speed in km/h and in m/s?"
+   }
+  ]
+ },
+ {
+  "id": "math-4",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Is 221 a prime number? Explain."
+   }
+  ]
+ },
+ {
+  "id": "instr-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "List three fruits, one per line, in alphabetical order, with no other text."
+   }
+  ]
+ },
+ {
+  "id": "instr-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Reply with a JSON object with keys \"city\" and \"country\" for the capital of Japan. Output only JSON."
+   }
+  ]
+ },
+ {
+  "id": "instr-3",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Rewrite this sentence in the passive voice: The committee approved the new budget."
+   }
+  ]
+ },
+ {
+  "id": "tr-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Istanbul'un tarihini 100 kelimeyle anlat."
+   }
+  ]
+ },
+ {
+  "id": "tr-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Bir bilgisayarin RAM ve disk arasindaki farkini basitce acikla."
+   }
+  ]
+ },
+ {
+  "id": "tr-3",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Kisa bir is basvurusu e-postasi yaz: yazilim muhendisi pozisyonu."
+   }
+  ]
+ },
+ {
+  "id": "tr-4",
+  "messages": [
+   {
+    "role": "user",
+    "content": "Asagidaki cumleyi Ingilizceye cevir: Yarin sabah toplantiya gec kalacagim."
+   }
+  ]
+ },
+ {
+  "id": "reason-1",
+  "messages": [
+   {
+    "role": "user",
+    "content": "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies? Explain."
+   }
+  ]
+ },
+ {
+  "id": "reason-2",
+  "messages": [
+   {
+    "role": "user",
+    "content": "I have 3 apples, eat one, buy 4 more and give half of what I have to a friend. How many do I have?"
+   }
+  ]
+ }
+]

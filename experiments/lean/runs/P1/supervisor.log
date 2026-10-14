@@ -1,0 +1,4 @@
+2026-10-12T11:33:21 supervisor start deadline=14:33 nudge=yes
+2026-10-12T14:03:22 sent to 4b9b99872fa3: 'ON KONTROL (her kosula ayni, sure bitmeden 30 dk once): gate ciktisi asagida. Bitirirken RESULT.md bu kontrolden gecmeli.\n{\n "accepted_verified": []\n}\n[FAIL] ti' -> Queued for 4b9b99872fa3
+2026-10-12T14:33:22 sent to 4b9b99872fa3: "SURE DOLDU: 10 dakika icinde RESULT.md dosyasini referee'nin dogruladigi en iyi sonuclarla guncelle, ledger'i tamamla ve dur. Yeni deneme baslatma." -> Queued for 4b9b99872fa3
+2026-10-12T14:49:23 deadline + grace reached: tmux session cs6-P1 closed

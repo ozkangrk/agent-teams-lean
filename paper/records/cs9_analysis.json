@@ -1,0 +1,208 @@
+{
+ "N": 100,
+ "TS2": [
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-103425-conjecture",
+  "OEIS-108306-conjecture",
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-113250-conjecture",
+  "OEIS-113252-conjecture",
+  "OEIS-113255-conjecture",
+  "OEIS-237271-observation_carmichael",
+  "OEIS-3625-conjecture"
+ ],
+ "TW2": [
+  "OEIS-100434-conjecture2",
+  "OEIS-100434-conjecture3",
+  "OEIS-102371-conjecture",
+  "OEIS-103425-conjecture",
+  "OEIS-108306-conjecture",
+  "OEIS-112970-conjecture1",
+  "OEIS-112970-conjecture2",
+  "OEIS-113250-conjecture",
+  "OEIS-113252-conjecture",
+  "OEIS-113255-conjecture",
+  "OEIS-237271-conjecture_5",
+  "OEIS-237271-observation_carmichael",
+  "OEIS-3625-conjecture"
+ ],
+ "n": {
+  "TS2": 11,
+  "TW2": 13
+ },
+ "R1": {
+  "b_TW2_only": 2,
+  "c_TS2_only": 0,
+  "p_one_sided": 0.25,
+  "diff_pts": 2,
+  "tango": [
+   -1.8,
+   7.0
+  ],
+  "TW2_only": [
+   "OEIS-102371-conjecture",
+   "OEIS-237271-conjecture_5"
+  ],
+  "TS2_only": []
+ },
+ "pooled_CS7_CS9": {
+  "b": 8,
+  "c": 0,
+  "p_one_sided": 0.00390625,
+  "sensitivity_D8_removed": {
+   "b": 4,
+   "c": 0,
+   "p_one_sided": 0.0625
+  }
+ },
+ "C1_TW2_vs_union": {
+  "b_TW2_only": 1,
+  "c_union_only": 4,
+  "p_two_sided": 0.375,
+  "diff_pts": -3,
+  "tango_TW2_minus_union": [
+   -9.0,
+   1.9
+  ],
+  "TW2_only": [
+   "OEIS-102371-conjecture"
+  ],
+  "union_only": [
+   "OEIS-129365-conjecture1",
+   "OEIS-129365-conjecture2",
+   "OEIS-70823-conjecture",
+   "OEIS-93456-conjecture"
+  ]
+ },
+ "C1_secondary_TW7_vs_union": {
+  "b": 1,
+  "c": 1,
+  "p_two_sided": 1.0,
+  "tango": [
+   -4.6,
+   4.6
+  ]
+ },
+ "C2_union_vs_TS2": {
+  "b_union_only": 5,
+  "c_TS2_only": 0,
+  "p_one_sided": 0.03125
+ },
+ "C2_union_vs_TS7": {
+  "b_union_only": 6,
+  "c_TS_only": 0,
+  "p_one_sided": 0.015625
+ },
+ "tokens": {
+  "TS7": [
+   509,
+   539441
+  ],
+  "TW7": [
+   2010,
+   2451656
+  ],
+  "IA_total": [
+   3200,
+   3681547
+  ],
+  "TS2": [
+   697,
+   653484
+  ],
+  "TW2": [
+   1807,
+   2445009
+  ]
+ },
+ "token_matched_union_at_TW2_budget": {
+  "budget_output": 2445009,
+  "reached_utc": "2026-10-13T19:01:55",
+  "union_low": 12,
+  "union_high": 14
+ },
+ "curve": {
+  "TS2": [
+   [
+    "08:11",
+    5
+   ],
+   [
+    "09:11",
+    7
+   ],
+   [
+    "09:12",
+    7
+   ],
+   [
+    "10:11",
+    7
+   ],
+   [
+    "11:12",
+    8
+   ],
+   [
+    "12:12",
+    8
+   ],
+   [
+    "13:12",
+    9
+   ],
+   [
+    "14:12",
+    10
+   ],
+   [
+    "15:11",
+    11
+   ],
+   [
+    "16:11",
+    11
+   ]
+  ],
+  "TW2": [
+   [
+    "09:12",
+    9
+   ],
+   [
+    "10:11",
+    11
+   ],
+   [
+    "11:12",
+    11
+   ],
+   [
+    "12:12",
+    11
+   ],
+   [
+    "13:12",
+    13
+   ],
+   [
+    "14:12",
+    13
+   ],
+   [
+    "15:11",
+    13
+   ],
+   [
+    "16:11",
+    13
+   ]
+  ]
+ },
+ "new_statements_any_run": [
+  "OEIS-102371-conjecture",
+  "OEIS-129365-conjecture2"
+ ]
+}

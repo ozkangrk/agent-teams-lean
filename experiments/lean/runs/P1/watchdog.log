@@ -1,0 +1,5 @@
+2026-10-12T11:33:21 watchdog start limit=20min until=14:48
+2026-10-12T11:33:21 list failed: Expecting value: line 1 column 1 (char 0)
+2026-10-12T12:47:22 session 4b9b99872fa3 (depth 0) blocked 20 min; terminating pid 2848979 (age 74 min, tree [2848979]): '/home/ozkangu/.prime/agent/kernel-venv/bin/python -m rlm.repl'
+2026-10-12T13:14:55 watchdog start limit=20min until=14:48
+2026-10-12T14:48:58 watchdog stop (until reached)

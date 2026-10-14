@@ -1,0 +1,74 @@
+{
+ "keich-128": {
+  "valid": true,
+  "score": 0.10993019685653257,
+  "gap_rel": -0.042506010912249904,
+  "matches_record": true,
+  "beats_record": true
+ },
+ "heilbronn-12": {
+  "valid": true,
+  "score": 0.030829802703096643,
+  "gap_rel": 0.05426742099921985,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "tammes-15": {
+  "valid": true,
+  "score": 53.601494706224415,
+  "max_cos": 0.5933978886986438,
+  "gap_rel": 0.0010502736052933417,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "autocorr-c1": {
+  "valid": true,
+  "score": 1.5120868964629801,
+  "n_steps": 16384,
+  "gap_rel": 0.006146050860317913,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "dts-7-5": {
+  "valid": true,
+  "score": 123,
+  "gap_rel": 0.09821428571428571,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "vdw-2-7": {
+  "valid": true,
+  "score": 608,
+  "gap_rel": 0.8358088036726978,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "cwcode-29-8-5": {
+  "valid": true,
+  "score": 35,
+  "gap_rel": 0.027777777777777776,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "covering-13-7-4": {
+  "valid": true,
+  "score": 30,
+  "gap_rel": 0.0,
+  "matches_record": true,
+  "beats_record": false
+ },
+ "bklc-68-15": {
+  "valid": true,
+  "score": 24,
+  "gap_rel": 0.0,
+  "matches_record": true,
+  "beats_record": false
+ },
+ "ruler-10000": {
+  "valid": true,
+  "score": 192,
+  "gap_rel": 0.10344827586206896,
+  "matches_record": false,
+  "beats_record": false
+ }
+}

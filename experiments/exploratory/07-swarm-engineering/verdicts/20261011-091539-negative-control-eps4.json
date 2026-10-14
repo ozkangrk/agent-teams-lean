@@ -1,0 +1,37 @@
+{
+ "tag": "negative-control-eps4",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work-negctl",
+ "head": "59452e8e8b362b508462b2032059c8182909a59c",
+ "patch_sha256": "44c3a05595d807faa9fcdb70bb3b5b96f162eebe721f1ee00b04e86b87284935",
+ "patch_lines": 13,
+ "time": "2026-10-11T09:15:39",
+ "correctness": {
+  "prompts": 24,
+  "identical": 2,
+  "near_tie_flips": 2,
+  "errors": [
+   "prose-1: logprob drift mean 0.0544 max 0.2345 before divergence",
+   "prose-2: logprob drift mean 0.0845 max 0.5044 before divergence",
+   "prose-3: logprob drift mean 0.0508 max 0.3733 before divergence",
+   "prose-5: logprob drift mean 0.0653 max 0.3253 before divergence",
+   "code-1: logprob drift mean 0.0142 max 0.2863 before divergence",
+   "code-2: logprob drift mean 0.0610 max 0.2624 before divergence",
+   "code-3: logprob drift mean 0.0221 max 0.0745 before divergence",
+   "code-5: logprob drift mean 0.0331 max 0.0827 before divergence",
+   "math-1: logprob drift mean 0.1082 max 0.1082 before divergence",
+   "math-2: logprob drift mean 0.0282 max 0.1680 before divergence",
+   "math-3: logprob drift mean 0.0509 max 0.5532 before divergence",
+   "math-4: logprob drift mean 0.0252 max 0.3185 before divergence",
+   "instr-1: logprob drift mean 0.0418 max 0.2134 before divergence",
+   "tr-1: logprob drift mean 0.0410 max 0.1199 before divergence",
+   "tr-2: logprob drift mean 0.1121 max 0.3913 before divergence",
+   "tr-3: logprob drift mean 0.0724 max 0.2617 before divergence",
+   "tr-4: logprob drift mean 0.0584 max 0.1572 before divergence",
+   "reason-1: diverges at token 15 (' explanation' -> ' breakdown', baseline top-2 gap 0.250 nats)",
+   "reason-2: logprob drift mean 0.0240 max 0.4149 before divergence",
+   "long-8k: diverges at token 0 ('0' -> 'The', baseline top-2 gap 0.250 nats)"
+  ],
+  "correct": false
+ },
+ "status": "incorrect"
+}

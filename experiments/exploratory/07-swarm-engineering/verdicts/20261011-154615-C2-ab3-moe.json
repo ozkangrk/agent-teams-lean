@@ -1,0 +1,46 @@
+{
+ "tag": "C2-ab3-moe",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/TensorFold",
+ "head": "2bea4beee88567043583b668cb2a079171582ccf",
+ "patch_sha256": "fb7e9de10943ac4aefbb40aba85435467513101cb4ef47af2c7f60ea9e31a5b9",
+ "patch_lines": 924,
+ "time": "2026-10-11T15:46:15",
+ "correctness": {
+  "prompts": 24,
+  "identical": 24,
+  "near_tie_flips": 0,
+  "errors": [],
+  "correct": true
+ },
+ "status": "correct",
+ "no_drafts": {
+  "decode_tok_s": 38.74,
+  "decode_runs": [
+   38.66,
+   38.74,
+   51.42,
+   42.67,
+   38.72
+  ],
+  "prefill_tok_s": 2911.6,
+  "prefill_runs": [
+   2914.3,
+   2911.6,
+   2909.5
+  ]
+ },
+ "drafts": {
+  "decode_tok_s": 130.32,
+  "decode_runs": [
+   130.22,
+   130.35,
+   130.46,
+   130.29,
+   130.32
+  ]
+ },
+ "baseline_now_decode_tok_s": 81.26,
+ "speedup_decode": 0.4767,
+ "speedup_decode_drafts": 1.008,
+ "speedup_prefill": 0.441
+}

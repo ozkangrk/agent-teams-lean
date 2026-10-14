@@ -1,0 +1,304 @@
+{
+ "OEIS-100800-conjecture": {
+  "accepted": false
+ },
+ "OEIS-101779-conjecture": {
+  "accepted": false
+ },
+ "OEIS-103151-conjecture": {
+  "accepted": false
+ },
+ "OEIS-103662-conjecture.variants.a_40": {
+  "accepted": false
+ },
+ "OEIS-104320-conjecture": {
+  "accepted": false
+ },
+ "OEIS-105020-conjecture": {
+  "accepted": false
+ },
+ "OEIS-105210-conjecture_disjoint_starting_values": {
+  "accepted": false
+ },
+ "OEIS-105720-conjecture": {
+  "accepted": false
+ },
+ "OEIS-108129-conjecture": {
+  "accepted": false
+ },
+ "OEIS-108569-conjecture": {
+  "accepted": false
+ },
+ "OEIS-108866-conjecture": {
+  "accepted": false
+ },
+ "OEIS-109908-conjecture": {
+  "accepted": false
+ },
+ "OEIS-109909-conjecture": {
+  "accepted": false
+ },
+ "OEIS-110475-conjecture": {
+  "accepted": false
+ },
+ "OEIS-110566-conjecture": {
+  "accepted": false
+ },
+ "OEIS-110835-conjecture": {
+  "accepted": false
+ },
+ "OEIS-110854-conjecture": {
+  "accepted": false
+ },
+ "OEIS-1146-conjecture": {
+  "accepted": false
+ },
+ "OEIS-11545-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-1157-conjecture": {
+  "accepted": false
+ },
+ "OEIS-117531-conjecture": {
+  "accepted": false
+ },
+ "OEIS-119591-conjecture": {
+  "accepted": false
+ },
+ "OEIS-130911-conjecture": {
+  "accepted": false
+ },
+ "OEIS-135508-conjecture": {
+  "accepted": false
+ },
+ "OEIS-141057-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-145355-conjecture": {
+  "accepted": false
+ },
+ "OEIS-153330-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-153330-conjecture3": {
+  "accepted": false
+ },
+ "OEIS-157237-conjecture": {
+  "accepted": false
+ },
+ "OEIS-1599-eq_one_of_odd_of_a": {
+  "accepted": false
+ },
+ "OEIS-160324-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-160324-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-166944-conjecture": {
+  "accepted": false
+ },
+ "OEIS-167918-conjecture_infinite": {
+  "accepted": false
+ },
+ "OEIS-167918-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-17666-conjecture": {
+  "accepted": false
+ },
+ "OEIS-179524-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-179524-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-179537-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-179537-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-181391-conjecture": {
+  "accepted": false
+ },
+ "OEIS-182126-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-182126-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-182510-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-185150-conjecture": {
+  "accepted": false
+ },
+ "OEIS-2-density_one": {
+  "accepted": false
+ },
+ "OEIS-224-conjecture": {
+  "accepted": false
+ },
+ "OEIS-2326-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-2326-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-2407-conjecture": {
+  "accepted": false
+ },
+ "OEIS-2426-conjecture": {
+  "accepted": false
+ },
+ "OEIS-24356-conjecture": {
+  "accepted": false
+ },
+ "OEIS-34694-conjecture": {
+  "accepted": false
+ },
+ "OEIS-357513-general_supercongruence": {
+  "accepted": false
+ },
+ "OEIS-37274-home_prime_conjecture": {
+  "accepted": false
+ },
+ "OEIS-38107-conjecture": {
+  "accepted": false
+ },
+ "OEIS-38552-mod_24_of_isA038552": {
+  "accepted": false
+ },
+ "OEIS-38552-isA038552_eq_largestNegFundDisc": {
+  "accepted": false
+ },
+ "OEIS-38771-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-40-conjecture": {
+  "accepted": false
+ },
+ "OEIS-4290-conjecture": {
+  "accepted": false
+ },
+ "OEIS-46969-conjecture1": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«46969»",
+  "theorem": "OeisA46969.conjecture1",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 9.7,
+  "file": "OEIS-46969-conjecture1.lean"
+ },
+ "OEIS-5153-conjecture": {
+  "accepted": false
+ },
+ "OEIS-53000-conjecture": {
+  "accepted": false
+ },
+ "OEIS-55487-conjecture": {
+  "accepted": false
+ },
+ "OEIS-60841-conjecture1": {
+  "accepted": true,
+  "kind": "proof",
+  "module": "FormalConjectures.OEIS.«60841»",
+  "theorem": "OeisA60841.conjecture1",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "seconds": 7.7,
+  "file": "OEIS-60841-conjecture1.lean"
+ },
+ "OEIS-60957-conjecture": {
+  "accepted": false
+ },
+ "OEIS-69004-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-69922-conjecture": {
+  "accepted": false
+ },
+ "OEIS-69923-conjecture": {
+  "accepted": false
+ },
+ "OEIS-7013-conjecture": {
+  "accepted": false
+ },
+ "OEIS-71524-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-71524-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-71532-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-72200-conjecture": {
+  "accepted": false
+ },
+ "OEIS-7406-conjecture": {
+  "accepted": false
+ },
+ "OEIS-7468-conjecture": {
+  "accepted": false
+ },
+ "OEIS-76495-conjecture": {
+  "accepted": false
+ },
+ "OEIS-77408-conjecture": {
+  "accepted": false
+ },
+ "OEIS-78680-conjecture": {
+  "accepted": false
+ },
+ "OEIS-78729-conjecture": {
+  "accepted": false
+ },
+ "OEIS-7918-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-7918-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-79727-conjecture1": {
+  "accepted": false
+ },
+ "OEIS-79727-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-80101-conjecture": {
+  "accepted": false
+ },
+ "OEIS-80326-conjecture": {
+  "accepted": false
+ },
+ "OEIS-83753-conjecture": {
+  "accepted": false
+ },
+ "OEIS-86766-conjecture2": {
+  "accepted": false
+ },
+ "OEIS-87207-conjecture": {
+  "accepted": false
+ },
+ "OEIS-87571-conjecture": {
+  "accepted": false
+ },
+ "OEIS-91591-conjecture": {
+  "accepted": false
+ },
+ "OEIS-93818-conjecture": {
+  "accepted": false
+ },
+ "OEIS-96535-conjecture": {
+  "accepted": false
+ }
+}

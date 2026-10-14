@@ -1,0 +1,26 @@
+{
+ "tag": "C2-ab-glue",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/wt-glue",
+ "head": "7040fce7a6cc77086677e2d859d4468aa32ac7d5",
+ "patch_sha256": "745f3b78b05fb216cc4ed6794c4a6efaa24163ed372f8893e241085880104b87",
+ "patch_lines": 563,
+ "time": "2026-10-11T15:14:26",
+ "correctness": {
+  "prompts": 24,
+  "identical": 9,
+  "near_tie_flips": 6,
+  "errors": [
+   "prose-1: logprob drift mean 0.0315 max 0.1605 before divergence",
+   "prose-4: diverges at token 53 (' escal' -> ' turning', baseline top-2 gap 0.875 nats)",
+   "prose-5: logprob drift mean 0.0347 max 0.4148 before divergence",
+   "code-2: logprob drift mean 0.0070 max 0.3038 before divergence",
+   "code-5: diverges at token 74 ('###' -> '**', baseline top-2 gap 0.250 nats)",
+   "math-1: diverges at token 204 (' a' -> ' ', baseline top-2 gap 0.750 nats)",
+   "math-4: diverges at token 52 (' check' -> ' try', baseline top-2 gap 0.250 nats)",
+   "tr-1: logprob drift mean 0.0488 max 0.3287 before divergence",
+   "tr-2: logprob drift mean 0.0252 max 0.2950 before divergence"
+  ],
+  "correct": false
+ },
+ "status": "incorrect"
+}

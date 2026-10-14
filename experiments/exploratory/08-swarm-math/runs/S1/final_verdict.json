@@ -1,0 +1,52 @@
+{
+ "thomson-282": {
+  "valid": true,
+  "score": 37159.05162340173,
+  "gap_rel": 0.00031650232200718245,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "thomson-400": {
+  "valid": true,
+  "score": 75605.71504117009,
+  "gap_rel": 0.0003078297860822453,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "thomson-470": {
+  "valid": true,
+  "score": 104850.53719378529,
+  "gap_rel": 0.00026378656871510285,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "circles-26": {
+  "valid": true,
+  "score": 2.6359830692817408,
+  "gap_rel": -1.1643797527917664e-06,
+  "matches_record": true,
+  "beats_record": true
+ },
+ "circles-32": {
+  "valid": true,
+  "score": 2.9395727522668804,
+  "gap_rel": -0.00019487998192594788,
+  "matches_record": true,
+  "beats_record": true
+ },
+ "autocorr-c1": {
+  "valid": true,
+  "score": 1.512170215907637,
+  "n_steps": 192,
+  "gap_rel": 0.0054323244066734645,
+  "matches_record": false,
+  "beats_record": false
+ },
+ "discrepancy-2": {
+  "valid": true,
+  "score": 1160,
+  "gap_rel": 0.0,
+  "matches_record": true,
+  "beats_record": false
+ }
+}

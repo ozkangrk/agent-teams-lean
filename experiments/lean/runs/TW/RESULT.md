@@ -1,0 +1,30 @@
+# RESULT.md — CS7 condition TW (swarm)
+
+FİNAL: 07:00. Kapı ön kontrolü (T-30) 16/16 kabulü doğruladı; süre koşulu 06:53'te geçti.
+
+## Kabul edilen (hakem doğrulamalı): 16 problem
+- OEIS-100434-conjecture2
+- OEIS-100434-conjecture3
+- OEIS-103425-conjecture
+- OEIS-108306-conjecture
+- OEIS-112970-conjecture1
+- OEIS-112970-conjecture2
+- OEIS-113250-conjecture
+- OEIS-113252-conjecture
+- OEIS-113255-conjecture
+- OEIS-129365-conjecture1
+- OEIS-237271-conjecture_5
+- OEIS-237271-observation_carmichael
+- OEIS-3625-conjecture
+- OEIS-70823-conjecture
+- OEIS-93456-conjecture
+- WrittenOnTheWallII-GraphConjecture200-conjecture200
+
+```json
+{"accepted": ["OEIS-100434-conjecture2", "OEIS-100434-conjecture3", "OEIS-103425-conjecture", "OEIS-108306-conjecture", "OEIS-112970-conjecture1", "OEIS-112970-conjecture2", "OEIS-113250-conjecture", "OEIS-113252-conjecture", "OEIS-113255-conjecture", "OEIS-129365-conjecture1", "OEIS-237271-conjecture_5", "OEIS-237271-observation_carmichael", "OEIS-3625-conjecture", "OEIS-70823-conjecture", "OEIS-93456-conjecture", "WrittenOnTheWallII-GraphConjecture200-conjecture200"]}
+```
+
+## Notlar
+- Tüm kabul dosyaları `proofs/` altında; her biri referee (check.py) ACCEPT döndürdü.
+- 15 tanesi 02:00 civarı paralel yeniden doğrulamadan geçti; GraphConjecture200 04:15'te doğrulandı.
+- 112970-conjecture1_value kanıtlandı ama hedef 100-problem setinde değil (sayılmadı).

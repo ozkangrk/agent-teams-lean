@@ -1,0 +1,54 @@
+{
+ "thomson-282": {
+  "family": "thomson",
+  "n": 282,
+  "sense": "min",
+  "best_known": 37147.294418462,
+  "source": "Wikipedia 'Thomson problem' table (fetched 2026-10-11)"
+ },
+ "thomson-400": {
+  "family": "thomson",
+  "n": 400,
+  "sense": "min",
+  "best_known": 75582.448512213,
+  "source": "Wikipedia 'Thomson problem' table (fetched 2026-10-11)"
+ },
+ "thomson-470": {
+  "family": "thomson",
+  "n": 470,
+  "sense": "min",
+  "best_known": 104822.886324279,
+  "source": "Wikipedia 'Thomson problem' table (fetched 2026-10-11)"
+ },
+ "circles-26": {
+  "family": "circles_sum_radii",
+  "n": 26,
+  "sense": "max",
+  "best_known": 2.63598,
+  "best_known_note": "truncated '2.63598+' (Haowei Lin, July 2026); AlphaEvolve 2.635 (Georgiev et al. 2025)",
+  "source": "E. Friedman, Circles in Squares (max sum of radii), fetched 2026-10-11"
+ },
+ "circles-32": {
+  "family": "circles_sum_radii",
+  "n": 32,
+  "sense": "max",
+  "best_known": 2.939,
+  "best_known_note": "truncated '2.939+' (T. Berthold et al., Jan 2026); AlphaEvolve 2.937",
+  "source": "E. Friedman, Circles in Squares (max sum of radii), fetched 2026-10-11"
+ },
+ "autocorr-c1": {
+  "family": "autocorrelation_c1",
+  "sense": "min",
+  "best_known": 1.504,
+  "best_known_note": "AlphaEvolve 1.5040 (notebook, Georgiev et al.); Matolcsi-Vinuesa 2010: 1.5098; later improvements may exist",
+  "source": "google-deepmind/alphaevolve_repository_of_problems, autocorrelation_problems.ipynb"
+ },
+ "discrepancy-2": {
+  "family": "erdos_discrepancy",
+  "C": 2,
+  "sense": "max",
+  "best_known": 1160,
+  "best_known_note": "proven maximum length for discrepancy 2 (Konev & Lisitsa 2014, SAT)",
+  "source": "Konev & Lisitsa, arXiv:1402.2184"
+ }
+}

@@ -1,0 +1,271 @@
+{
+ "CS3-C1": {
+  "roots": [
+   "01a1299f-9370-7436-9448-189ae8d8f6db"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 317,
+    "input": 572830,
+    "output": 291587,
+    "cacheRead": 29248256,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS3-C2": {
+  "roots": [
+   "01a12a72-1ae1-71f1-a0ba-7d99a3bcddb9"
+  ],
+  "subagent_files": 3,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 917,
+    "input": 1635619,
+    "output": 523634,
+    "cacheRead": 54853376,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS4-S1": {
+  "roots": [
+   "01a12b4a-3896-732d-9e48-0caa08e0dd5c"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 201,
+    "input": 467077,
+    "output": 128055,
+    "cacheRead": 9140352,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS4-S2": {
+  "roots": [
+   "01a12b4a-38af-73d3-8ba4-5cf0e8970ad6"
+  ],
+  "subagent_files": 6,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 971,
+    "input": 2002448,
+    "output": 528722,
+    "cacheRead": 44400768,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS5-S1": {
+  "roots": [
+   "01a12cb7-8a73-73d1-a1b5-21db3d7bff5a"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 341,
+    "input": 720038,
+    "output": 239105,
+    "cacheRead": 21188928,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS5-S2": {
+  "roots": [
+   "01a12cb7-8a55-7655-9906-c4244dd8311f"
+  ],
+  "subagent_files": 9,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 1133,
+    "input": 3455181,
+    "output": 995702,
+    "cacheRead": 55839104,
+    "cacheWrite": 0
+   },
+   "zai/glm-5.2": {
+    "calls": 124,
+    "input": 152114,
+    "output": 125268,
+    "cacheRead": 10058944,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS5-S3": {
+  "roots": [
+   "01a12cb7-8a80-7586-bb9c-00be454506e2"
+  ],
+  "subagent_files": 18,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 1401,
+    "input": 3554772,
+    "output": 1251703,
+    "cacheRead": 65648128,
+    "cacheWrite": 0
+   },
+   "tensorfold/qwen3.8-flash-next": {
+    "calls": 321,
+    "input": 787426,
+    "output": 418236,
+    "cacheRead": 16859225,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS6-O1": {
+  "roots": [
+   "01a1302b-a35b-71e8-ac06-c655a1def0b7"
+  ],
+  "subagent_files": 6,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 1131,
+    "input": 4652829,
+    "output": 1899998,
+    "cacheRead": 201157376,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS6-P1": {
+  "roots": [
+   "01a12f3e-b7bd-7603-aaad-0aa509f3ad3a"
+  ],
+  "subagent_files": 12,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 878,
+    "input": 3950185,
+    "output": 2116819,
+    "cacheRead": 54134784,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS7-TS": {
+  "roots": [
+   "01a131ba-d755-7090-a69a-61f0fd4e902c"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 509,
+    "input": 1125820,
+    "output": 539441,
+    "cacheRead": 48964736,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS7-TW": {
+  "roots": [
+   "01a131ba-d76b-76eb-a8e0-db70f068ce5f"
+  ],
+  "subagent_files": 6,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 2010,
+    "input": 5098936,
+    "output": 2451656,
+    "cacheRead": 141621248,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS8-IA1": {
+  "roots": [
+   "01a135b7-eac9-733d-a199-239fc169e180"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 1064,
+    "input": 3610118,
+    "output": 1311004,
+    "cacheRead": 68914496,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS8-IA2": {
+  "roots": [
+   "01a135b7-f2bf-75d1-ade2-8357a9644340"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 804,
+    "input": 1999456,
+    "output": 682111,
+    "cacheRead": 50911488,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS8-IA3": {
+  "roots": [
+   "01a135b7-f2e4-7736-bbba-5f75b4cb87e1"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 697,
+    "input": 2849029,
+    "output": 1143461,
+    "cacheRead": 65092096,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS8-IA4": {
+  "roots": [
+   "01a135b7-f32a-745a-8792-cfe12e71b504"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 635,
+    "input": 1324112,
+    "output": 544971,
+    "cacheRead": 42308736,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS9-TS2": {
+  "roots": [
+   "01a1389b-dd3c-73be-82b7-56f959783c0f"
+  ],
+  "subagent_files": 0,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 697,
+    "input": 1654516,
+    "output": 653484,
+    "cacheRead": 53044288,
+    "cacheWrite": 0
+   }
+  }
+ },
+ "CS9-TW2": {
+  "roots": [
+   "01a1389b-dd52-7150-ae36-c89782130897"
+  ],
+  "subagent_files": 13,
+  "by_model": {
+   "zai/glm-5.3": {
+    "calls": 1807,
+    "input": 5554437,
+    "output": 2445009,
+    "cacheRead": 116842112,
+    "cacheWrite": 0
+   }
+  }
+ }
+}

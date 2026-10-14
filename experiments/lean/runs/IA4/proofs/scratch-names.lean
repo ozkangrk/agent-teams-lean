@@ -1,0 +1,25 @@
+import FormalConjectures.Arxiv.«2507.17780».«2»
+open SimpleGraph Arxiv.«2507.17780»
+#check @List.elem_iff
+#check @List.mem_elem
+#check @List.all_eq_true
+#check @List.any_eq_true
+#check @List.filter_sublist
+#check @List.toFinset_card_of_nodup
+#check @List.mem_toFinset
+#check @List.mem_finRange
+#check @eq_of_beq
+#check @List.mem_filter
+#check @List.mem_append
+#check @Finset.mem_univ
+#check @SimpleGraph.maxDegree_le_of_forall_degree_le
+#check @connected_iff_exists_forall_reachable
+#check @List.mem_sublists
+#check @List.Nodup.filter
+#check @Finset.mem_powerset
+#check @isIndepSet_iff
+#check @IsNIndepSet
+#check @Nat.sInf_le
+#check @Nat.sInf_mem
+#check @le_sSup
+#check @sSup_le

@@ -1,0 +1,46 @@
+{
+ "tag": "C2-glue2",
+ "worktree": "/home/ozkangu/Desktop/research/07-swarm-engineering/work/C2/wt-glue",
+ "head": "7040fce7a6cc77086677e2d859d4468aa32ac7d5",
+ "patch_sha256": "197400bc792e96f0f588cba2ee548f08f2d2fcc47535514a188668849c0ea040",
+ "patch_lines": 376,
+ "time": "2026-10-11T14:07:25",
+ "correctness": {
+  "prompts": 24,
+  "identical": 24,
+  "near_tie_flips": 0,
+  "errors": [],
+  "correct": true
+ },
+ "status": "correct",
+ "no_drafts": {
+  "decode_tok_s": 100.34,
+  "decode_runs": [
+   100.34,
+   100.64,
+   100.34,
+   100.6,
+   100.25
+  ],
+  "prefill_tok_s": 6418.9,
+  "prefill_runs": [
+   6436.8,
+   6412.1,
+   6418.9
+  ]
+ },
+ "drafts": {
+  "decode_tok_s": 133.72,
+  "decode_runs": [
+   133.77,
+   133.75,
+   133.72,
+   133.66,
+   133.61
+  ]
+ },
+ "baseline_now_decode_tok_s": 95.45,
+ "speedup_decode": 1.0512,
+ "speedup_decode_drafts": 1.0343,
+ "speedup_prefill": 0.9723
+}
