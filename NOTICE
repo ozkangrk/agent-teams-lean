@@ -1,0 +1,45 @@
+agent-teams-lean: third-party notices
+=====================================
+
+This repository redistributes text from the following third-party work.
+
+------------------------------------------------------------------------
+Formal Conjectures
+https://github.com/google-deepmind/formal-conjectures
+Commit 79222608007b3a2834d6e56d0a90a3730afbabfb (12 October 2026)
+
+Copyright 2026 The Formal Conjectures Authors.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may
+not use these files except in compliance with the License. A copy of the
+License is in LICENSES/Apache-2.0.txt and at
+https://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable
+law or agreed to in writing, software distributed under the License is
+distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied. See the License for the specific
+language governing permissions and limitations under the License.
+
+Where it appears in this repository:
+
+  experiments/lean/conditions/cs7_set.jsonl
+  experiments/lean/conditions/cs7_set_v1_literature.jsonl
+  experiments/lean/conditions/pilot.jsonl
+  experiments/lean/conditions/pool_open.jsonl
+  experiments/lean/conditions/pool_solved.jsonl
+  experiments/lean/conditions/pool_test.jsonl
+  experiments/lean/conditions/sweep_oeis.jsonl
+  paper/records/cs7_set.jsonl
+
+  The Lean files under experiments/lean/runs/*/proofs/ import Formal
+  Conjectures modules and restate some of its statements.
+
+Changes made: the files listed above are not copies of Formal Conjectures
+source files. experiments/lean/referee/extract.py extracted theorem
+statements from the Lean sources at the commit above and stored each one
+as a JSON record (identifier, module, theorem name, source file, dates
+and the extracted source text). The extracted text is the source span
+between a theorem's name and its `sorry` proof. In some records of the
+pool_*.jsonl files that span runs over neighbouring declarations, so those
+records also contain Formal Conjectures definitions, proofs, comments and
+docstrings verbatim. The licence headers of the source files are not
+included; this notice carries their copyright line.

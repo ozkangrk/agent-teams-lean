@@ -1,6 +1,6 @@
 # Does a Small Agent Team Beat a Single Agent? Parallel Attempts, Not Coordination
 
-This repository holds the materials for the paper. The compiled draft is `paper/agent-teams-lean.pdf`.
+This repository holds the materials for the paper. The compiled paper is `paper/agent-teams-lean.pdf`.
 
 **Study design.** Several GLM-5.3 agent configurations wrote Lean 4 proofs for 100 statements from
 [google-deepmind/formal-conjectures](https://github.com/google-deepmind/formal-conjectures) (commit `79222608`). All
@@ -19,6 +19,15 @@ were pre-registered:
 - **Coordination:** the pre-registered coordination test (TW2 vs the IA union: 13 vs 16, p = 0.375) found no
   advantage for coordination. At equal token budgets the two are comparable.
 - **Conclusion:** the gain comes from parallel attempts, not coordination.
+
+## Who did what
+- **Author:** G. Ozkan conceived and designed the study, directed the work and checked the results.
+- **AI assistance:** an AI coding assistant (Claude, Anthropic) worked under the author's direction. It wrote the code
+  in this repository (referees, sandboxes, supervisors, watchdogs, analysis and paper-build scripts), ran and
+  monitored the experiments, kept the deviation logs and evaluation notes, and drafted the paper. It is the
+  "experimenter" named throughout the records (for example `PREREG_CS7.md`, `DEVIATIONS.md`, `evaluations.md`), and
+  "Claude's code" in file headers refers to it.
+- **Agents under study:** GLM-5.3 agents running in Prime Agent.
 
 ## Layout
 - **`paper/`:** LaTeX source; `make` rebuilds numbers, bibliography and PDF.
@@ -51,6 +60,21 @@ were pre-registered:
 - **The formal-conjectures checkout:** use commit `79222608`.
 - **The OEIS entries:** these are third-party data. `referee/sanitize.py` regenerates the sanitised views from a
   formal-conjectures checkout and OEIS JSON entries.
+
+## Third-party material
+The problem files (`experiments/lean/conditions/*.jsonl` with a `statement` field, and `paper/records/cs7_set.jsonl`)
+contain statement text from google-deepmind/formal-conjectures, which is licensed under Apache-2.0. The proofs under
+`experiments/lean/runs/` restate those statements. See [`NOTICE`](NOTICE) for the attribution and
+[`LICENSES/Apache-2.0.txt`](LICENSES/Apache-2.0.txt) for the licence text.
+
+## Licence
+- **Code** (`harness/`, `experiments/*/referee/`, `experiments/lean/tools/`, the analysis and launch scripts in
+  `experiments/lean/conditions/`, `paper/scripts/`, `paper/Makefile`): MIT, see [`LICENSE`](LICENSE).
+- **Data, records and the paper** (pre-registrations, deviation logs, evaluations, snapshots, ledgers, verdicts, logs,
+  the agents' proofs and notes under `experiments/*/runs/`, `paper/*.tex`, `paper/refs.bib`, the PDF and figure data):
+  CC BY 4.0, see [`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt).
+- **Third-party material keeps its own terms:** the formal-conjectures statement text is Apache-2.0 (see
+  [`NOTICE`](NOTICE)); any OEIS text reaching these files through formal-conjectures follows the OEIS terms.
 
 ## Pre-registration timeline
 Recorded in the author's local git history; commit hash and timestamp (UTC+3).

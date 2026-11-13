@@ -21,7 +21,7 @@
 \author{Gurkan Ozkan\\
 \small Istanbul Technical University\\
 \small\texttt{ozkangu@itu.edu.tr}}
-\date{Draft, 14 October 2026}
+\date{14 October 2026}
 
 \begin{document}
 \maketitle
@@ -66,8 +66,9 @@ as a way to attack problems that a single agent cannot solve.
 Three confounds make such claims hard to evaluate:
 \begin{itemize}
   \item \textbf{Compute.} A team usually spends more tokens than one agent, and repeated sampling alone raises coverage
-    \citep{wang2023selfconsistency,brown2024monkeys,li2024moreagents}. Anthropic reports that, in its analysis of a browsing
-    benchmark, token usage alone explains 80\% of performance variance \citep{anthropic2025multiagent}.
+    \citep{wang2023selfconsistency,brown2024monkeys,li2024moreagents}. Anthropic reports that, on the BrowseComp browsing
+    benchmark, token usage alone explains 80\% of performance variance (95\% together with the number of tool calls
+    and the model choice) \citep{anthropic2025multiagent}.
   \item \textbf{Contamination.} If the solutions are in the training data, any configuration may simply recall them.
   \item \textbf{Verification and rule integrity.} Without a strict external checker and an enforced sandbox, apparent
     successes can come from errors, leaked information or broken rules.
@@ -105,8 +106,11 @@ did not allow one (Section~\ref{sec:discussion}).
   \item \textbf{Role-based frameworks} coordinate specialised agents for software and general tasks
     \citep{wu2023autogen,hong2023metagpt,qian2023chatdev}.
   \item \textbf{Debate} between agents improves reasoning and factuality \citep{du2023debate}.
-  \item \textbf{Orchestrator--worker systems} delegate subtasks to parallel subagents. Anthropic reports a
-    90\% gain over a single agent at about 15$\times$ the tokens of a chat \citep{anthropic2025multiagent}.
+  \item \textbf{Orchestrator--worker systems} delegate subtasks to parallel subagents. Anthropic reports that a lead
+    Claude Opus~4 agent with Claude Sonnet~4 subagents outperformed a single Claude Opus~4 agent by 90.2\% on its
+    internal research evaluation. It also reports that agents use about 4$\times$ the tokens of a chat interaction and
+    multi-agent systems about 15$\times$, so a multi-agent system costs roughly 3.75$\times$ the tokens of a single agent
+    \citep{anthropic2025multiagent}, close to our team's \CSsevenOutRatio$\times$ output tokens in CS7.
   \item \textbf{Sceptical evidence:} \citet{cemri2025fail} catalogue failure modes of multi-agent systems and find small
     gains on popular benchmarks. \citet{kim2025scaling} compare single- and multi-agent architectures under standardised
     tools, prompts and compute, and report diminishing returns from coordination once single-agent baselines are strong.
@@ -782,10 +786,14 @@ intelligence. Along the way, a single agent escaped its sandbox to repair its ow
 another condition's log. Agent experiments need allow-list sandboxes and integrity scans as much as they need
 statistics.
 
-\section*{Author contributions and data availability}
+\section*{Author contributions, AI use and data availability}
 \begin{itemize}
-  \item \textbf{Author:} G.~Ozkan conceived and designed the study, set up the experiments, ran them, analysed the
-    results and wrote the paper. He is responsible for its content.
+  \item \textbf{Author:} G.~Ozkan conceived and designed the study, directed the work and checked the results. He is
+    responsible for the paper's content.
+  \item \textbf{AI assistance:} an AI coding assistant (Claude, Anthropic) worked under the author's direction. It wrote
+    the experiment code released with the paper (referees, sandboxes, supervisors, watchdogs, analysis and build
+    scripts), ran and monitored the experiments, kept the deviation logs and evaluation notes, and drafted the
+    manuscript. It is the ``experimenter'' referred to in this paper and in the released records.
   \item \textbf{Experiments:} the agents under study are autonomous AI agents (GLM-5.3 via Prime Agent), as described
     in Section~\ref{sec:setup}.
   \item \textbf{Reproducibility:} every number in the paper is generated from the experiment records by a script and
